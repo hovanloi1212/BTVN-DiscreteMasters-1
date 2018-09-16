@@ -1,7 +1,13 @@
 # BTVN-DiscreteMasters
 HƯỚNG DẪN SỬ DỤNG PAGE GITHUB CỦA TEAM DISCRETE MASTERS:
 1. Đăng kí thành viên tham gia vào project:
-- Fork project về trang github của mình.
-- Về lại trang github của mình và thực hiện chỉnh sửa trong đó.
-2. Thực hiện gộp bài của mình vào project gốc (pull):
-- Vào trang github của mình, nhấn nút new pull request.
+- Vào trang https://github.com/NAGATOPain/BTVN-DiscreteMasters
+- Fork project về trang Github của mình.
+![Alt text](/tutorial/a.png?raw=true "ForkProject")
+- Thực hiện chỉnh sửa project trên trang Github của mình.
+2. Thực hiện gộp bài của mình vào project gốc:
+- Vào trang Github của mình, chọn Compare & Pull request
+![Alt text](/tutorial/b.png?raw=true "PullProject")
+- Nhấn nút Create pull request.
+
+Thanks.
