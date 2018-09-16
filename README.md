@@ -8,5 +8,6 @@
 - Vào trang Github của mình, chọn Compare & Pull request
 ![Alt text](/tutorial/b.png?raw=true "PullProject")
 - Nhấn nút Create pull request.
+![Alt text](/tutorial/c.png?raw=true "Commit")
 
 Thanks.
