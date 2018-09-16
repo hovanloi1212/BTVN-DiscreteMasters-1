@@ -1,5 +1,4 @@
-# BTVN-DiscreteMasters
-HƯỚNG DẪN SỬ DỤNG PAGE GITHUB CỦA TEAM DISCRETE MASTERS:
+# HƯỚNG DẪN SỬ DỤNG PAGE GITHUB CỦA TEAM DISCRETE MASTERS:
 1. Đăng kí thành viên tham gia vào project:
 - Vào trang https://github.com/NAGATOPain/BTVN-DiscreteMasters
 - Fork project về trang Github của mình.
