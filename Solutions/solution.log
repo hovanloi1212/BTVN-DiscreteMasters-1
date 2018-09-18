@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.25)  13 SEP 2018 23:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.25)  18 SEP 2018 14:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1916,7 +1916,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.47 ...ircumflex }p 17}{44}{subsubsection.3.1.15}
+l.47 ...ircumflex }p 17}{48}{subsubsection.3.1.15}
                                                    [1]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
@@ -2442,494 +2442,778 @@ Package pdftex.def Info: Images/hcmut.png  used on input line 297.
 [28
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--421
+
+ []
+
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 313.
+Package pdftex.def Info: Images/hcmut.png  used on input line 421.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [29
+[29
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 318--321
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 318--321
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 318--321
-
- []
-
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 321.
+Package pdftex.def Info: Images/hcmut.png  used on input line 421.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
-[30
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 323--326
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 323--326
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 323--326
-
- []
-
+ [30]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 326.
+Package pdftex.def Info: Images/hcmut.png  used on input line 421.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
-[31
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 328--331
+ [31]
+Underfull \hbox (badness 10000) in paragraph at lines 424--442
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 328--331
+Underfull \hbox (badness 10000) in paragraph at lines 424--442
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 328--331
+Underfull \hbox (badness 10000) in paragraph at lines 424--442
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 424--442
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 424--442
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 424--442
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 424--442
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 424--442
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 424--442
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 424--442
 
  []
 
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 331.
+Package pdftex.def Info: Images/hcmut.png  used on input line 442.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
-[32
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 333--336
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 333--336
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 333--336
-
- []
-
+[32]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 336.
+Package pdftex.def Info: Images/hcmut.png  used on input line 442.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
-[33
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 338--341
+ [33]
+Underfull \hbox (badness 10000) in paragraph at lines 447--450
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 338--341
+Underfull \hbox (badness 10000) in paragraph at lines 447--450
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 338--341
+Underfull \hbox (badness 10000) in paragraph at lines 447--450
 
  []
 
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 341.
+Package pdftex.def Info: Images/hcmut.png  used on input line 450.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
 [34
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 343--346
+Underfull \hbox (badness 10000) in paragraph at lines 452--455
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 343--346
+Underfull \hbox (badness 10000) in paragraph at lines 452--455
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 343--346
+Underfull \hbox (badness 10000) in paragraph at lines 452--455
 
  []
 
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 346.
+Package pdftex.def Info: Images/hcmut.png  used on input line 455.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
 [35
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 348--351
+Underfull \hbox (badness 10000) in paragraph at lines 457--460
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 348--351
+Underfull \hbox (badness 10000) in paragraph at lines 457--460
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 348--351
+Underfull \hbox (badness 10000) in paragraph at lines 457--460
 
  []
 
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 351.
+Package pdftex.def Info: Images/hcmut.png  used on input line 460.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
 [36
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 353--356
+Underfull \hbox (badness 10000) in paragraph at lines 462--465
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 353--356
+Underfull \hbox (badness 10000) in paragraph at lines 462--465
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 353--356
+Underfull \hbox (badness 10000) in paragraph at lines 462--465
 
  []
 
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 356.
+Package pdftex.def Info: Images/hcmut.png  used on input line 465.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
 [37
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 358--361
+Underfull \hbox (badness 10000) in paragraph at lines 467--470
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 358--361
+Underfull \hbox (badness 10000) in paragraph at lines 467--470
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 358--361
+Underfull \hbox (badness 10000) in paragraph at lines 467--470
 
  []
 
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 361.
+Package pdftex.def Info: Images/hcmut.png  used on input line 470.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
 [38
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 363--366
+Underfull \hbox (badness 10000) in paragraph at lines 472--475
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 363--366
+Underfull \hbox (badness 10000) in paragraph at lines 472--475
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 363--366
+Underfull \hbox (badness 10000) in paragraph at lines 472--475
 
  []
 
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 366.
+Package pdftex.def Info: Images/hcmut.png  used on input line 475.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
 [39
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 368--371
+Underfull \hbox (badness 10000) in paragraph at lines 477--480
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 368--371
+Underfull \hbox (badness 10000) in paragraph at lines 477--480
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 368--371
+Underfull \hbox (badness 10000) in paragraph at lines 477--480
 
  []
 
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 371.
+Package pdftex.def Info: Images/hcmut.png  used on input line 480.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
 [40
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 373--376
+Underfull \hbox (badness 10000) in paragraph at lines 482--485
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 373--376
+Underfull \hbox (badness 10000) in paragraph at lines 482--485
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 373--376
+Underfull \hbox (badness 10000) in paragraph at lines 482--485
 
  []
 
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 376.
+Package pdftex.def Info: Images/hcmut.png  used on input line 485.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
 [41
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 378--381
+Underfull \hbox (badness 10000) in paragraph at lines 487--490
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 378--381
+Underfull \hbox (badness 10000) in paragraph at lines 487--490
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 378--381
+Underfull \hbox (badness 10000) in paragraph at lines 487--490
 
  []
 
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 381.
+Package pdftex.def Info: Images/hcmut.png  used on input line 490.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
 [42
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 383--386
+Underfull \hbox (badness 10000) in paragraph at lines 492--495
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 383--386
+Underfull \hbox (badness 10000) in paragraph at lines 492--495
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 383--386
+Underfull \hbox (badness 10000) in paragraph at lines 492--495
 
  []
 
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 386.
+Package pdftex.def Info: Images/hcmut.png  used on input line 495.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
 [43
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 388--391
+Underfull \hbox (badness 10000) in paragraph at lines 497--500
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 388--391
+Underfull \hbox (badness 10000) in paragraph at lines 497--500
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 388--391
+Underfull \hbox (badness 10000) in paragraph at lines 497--500
 
  []
 
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 391.
+Package pdftex.def Info: Images/hcmut.png  used on input line 500.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
 [44
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 393--396
+Underfull \hbox (badness 10000) in paragraph at lines 502--505
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 393--396
+Underfull \hbox (badness 10000) in paragraph at lines 502--505
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 393--396
+Underfull \hbox (badness 10000) in paragraph at lines 502--505
 
  []
 
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 396.
+Package pdftex.def Info: Images/hcmut.png  used on input line 505.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
 [45
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 398--401
+Underfull \hbox (badness 10000) in paragraph at lines 507--510
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--401
+Underfull \hbox (badness 10000) in paragraph at lines 507--510
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--401
+Underfull \hbox (badness 10000) in paragraph at lines 507--510
 
  []
 
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 401.
+Package pdftex.def Info: Images/hcmut.png  used on input line 510.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
 [46
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 403--406
+Underfull \hbox (badness 10000) in paragraph at lines 512--515
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 403--406
+Underfull \hbox (badness 10000) in paragraph at lines 512--515
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 403--406
+Underfull \hbox (badness 10000) in paragraph at lines 512--515
 
  []
 
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 406.
+Package pdftex.def Info: Images/hcmut.png  used on input line 515.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
 [47
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 408--411
+Underfull \hbox (badness 10000) in paragraph at lines 517--520
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--411
+Underfull \hbox (badness 10000) in paragraph at lines 517--520
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--411
+Underfull \hbox (badness 10000) in paragraph at lines 517--520
 
  []
 
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 411.
+Package pdftex.def Info: Images/hcmut.png  used on input line 520.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
 [48
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 413--417
+Underfull \hbox (badness 10000) in paragraph at lines 522--525
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 413--417
+Underfull \hbox (badness 10000) in paragraph at lines 522--525
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 522--525
 
  []
 
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 417.
+Package pdftex.def Info: Images/hcmut.png  used on input line 525.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
 [49
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 419--425
+Underfull \hbox (badness 10000) in paragraph at lines 527--530
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 419--425
+Underfull \hbox (badness 10000) in paragraph at lines 527--530
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 527--530
 
  []
 
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 426.
+Package pdftex.def Info: Images/hcmut.png  used on input line 530.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
 [50
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 428--439
+Underfull \hbox (badness 10000) in paragraph at lines 532--535
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 428--439
+Underfull \hbox (badness 10000) in paragraph at lines 532--535
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 428--439
-
- []
-
-
-Underfull \hbox (badness 1342) in paragraph at lines 428--439
-\T5/cmr/m/n/10 Thªt vªy, n¸u $\OML/cmm/m/it/10 n$ \T5/cmr/m/n/10 l  sè l´ th¼ t
-çn t¤i sè nguy¶n $\OML/cmm/m/it/10 k$ \T5/cmr/m/n/10 sao cho $\OML/cmm/m/it/10 
-n \OT1/cmr/m/n/10 = 2\OML/cmm/m/it/10 k \OT1/cmr/m/n/10 + 1$\T5/cmr/m/n/10 . Kh
-i ^^_â:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 428--439
+Underfull \hbox (badness 10000) in paragraph at lines 532--535
 
  []
 
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 440.
+Package pdftex.def Info: Images/hcmut.png  used on input line 535.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
 [51
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 442--454
+Underfull \hbox (badness 10000) in paragraph at lines 537--540
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 442--454
+Underfull \hbox (badness 10000) in paragraph at lines 537--540
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 442--454
+Underfull \hbox (badness 10000) in paragraph at lines 537--540
+
+ []
+
+File: Images/hcmut.png Graphic file (type png)
+<use Images/hcmut.png>
+Package pdftex.def Info: Images/hcmut.png  used on input line 540.
+(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
+[52
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 542--546
 
  []
 
 
-Underfull \hbox (badness 1342) in paragraph at lines 442--454
+Underfull \hbox (badness 10000) in paragraph at lines 542--546
+
+ []
+
+File: Images/hcmut.png Graphic file (type png)
+<use Images/hcmut.png>
+Package pdftex.def Info: Images/hcmut.png  used on input line 546.
+(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
+[53
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 548--554
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 548--554
+
+ []
+
+File: Images/hcmut.png Graphic file (type png)
+<use Images/hcmut.png>
+Package pdftex.def Info: Images/hcmut.png  used on input line 555.
+(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
+[54
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 557--568
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 557--568
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 557--568
+
+ []
+
+
+Underfull \hbox (badness 1342) in paragraph at lines 557--568
 \T5/cmr/m/n/10 Thªt vªy, n¸u $\OML/cmm/m/it/10 n$ \T5/cmr/m/n/10 l  sè l´ th¼ t
 çn t¤i sè nguy¶n $\OML/cmm/m/it/10 k$ \T5/cmr/m/n/10 sao cho $\OML/cmm/m/it/10 
 n \OT1/cmr/m/n/10 = 2\OML/cmm/m/it/10 k \OT1/cmr/m/n/10 + 1$\T5/cmr/m/n/10 . Kh
@@ -2937,242 +3221,7 @@ i ^^_â:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 442--454
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 442--454
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 442--454
-
- []
-
-File: Images/hcmut.png Graphic file (type png)
-<use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 454.
-(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
-[52
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 456--461
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 456--461
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 464--470
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 464--470
-
- []
-
-File: Images/hcmut.png Graphic file (type png)
-<use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 471.
-(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
-[53
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 473--479
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 473--479
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 488--490
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 491--494
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 498--500
-
- []
-
-File: Images/hcmut.png Graphic file (type png)
-<use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 503.
-(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
-[54
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 505--510
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 505--510
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 520--523
-
- []
-
-File: Images/hcmut.png Graphic file (type png)
-<use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 534.
-(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
-[55
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 536--539
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 536--539
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 536--539
-
- []
-
-File: Images/hcmut.png Graphic file (type png)
-<use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 539.
-(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
-[56
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 541--544
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 541--544
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 541--544
-
- []
-
-File: Images/hcmut.png Graphic file (type png)
-<use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 544.
-(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
-[57
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 546--549
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 546--549
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 546--549
-
- []
-
-File: Images/hcmut.png Graphic file (type png)
-<use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 549.
-(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
-[58
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 551--554
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 551--554
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 551--554
-
- []
-
-File: Images/hcmut.png Graphic file (type png)
-<use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 554.
-(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
-[59
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 556--559
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 556--559
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 556--559
-
- []
-
-File: Images/hcmut.png Graphic file (type png)
-<use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 559.
-(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
-[60
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 561--564
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 561--564
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 561--564
-
- []
-
-File: Images/hcmut.png Graphic file (type png)
-<use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 564.
-(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
-[61
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 566--569
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 566--569
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 566--569
+Underfull \hbox (badness 10000) in paragraph at lines 557--568
 
  []
 
@@ -3180,42 +3229,43 @@ File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
 Package pdftex.def Info: Images/hcmut.png  used on input line 569.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
-[62
+[55
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 575--578
+Underfull \hbox (badness 10000) in paragraph at lines 571--583
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 575--578
+Underfull \hbox (badness 10000) in paragraph at lines 571--583
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 575--578
-
- []
-
-File: Images/hcmut.png Graphic file (type png)
-<use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 578.
-(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
-[63
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 580--583
+Underfull \hbox (badness 10000) in paragraph at lines 571--583
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 580--583
+Underfull \hbox (badness 1342) in paragraph at lines 571--583
+\T5/cmr/m/n/10 Thªt vªy, n¸u $\OML/cmm/m/it/10 n$ \T5/cmr/m/n/10 l  sè l´ th¼ t
+çn t¤i sè nguy¶n $\OML/cmm/m/it/10 k$ \T5/cmr/m/n/10 sao cho $\OML/cmm/m/it/10 
+n \OT1/cmr/m/n/10 = 2\OML/cmm/m/it/10 k \OT1/cmr/m/n/10 + 1$\T5/cmr/m/n/10 . Kh
+i ^^_â:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 571--583
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 580--583
+Underfull \hbox (badness 10000) in paragraph at lines 571--583
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 571--583
 
  []
 
@@ -3223,605 +3273,918 @@ File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
 Package pdftex.def Info: Images/hcmut.png  used on input line 583.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
-[64
+[56
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 585--588
+Underfull \hbox (badness 10000) in paragraph at lines 585--590
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 585--588
+Underfull \hbox (badness 10000) in paragraph at lines 585--590
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 585--588
+Underfull \hbox (badness 10000) in paragraph at lines 593--599
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 593--599
 
  []
 
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 588.
+Package pdftex.def Info: Images/hcmut.png  used on input line 600.
+(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
+[57
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 602--608
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 602--608
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 617--619
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 620--623
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 627--629
+
+ []
+
+File: Images/hcmut.png Graphic file (type png)
+<use Images/hcmut.png>
+Package pdftex.def Info: Images/hcmut.png  used on input line 632.
+(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
+[58
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 634--639
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 634--639
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 649--652
+
+ []
+
+File: Images/hcmut.png Graphic file (type png)
+<use Images/hcmut.png>
+Package pdftex.def Info: Images/hcmut.png  used on input line 663.
+(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
+[59
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 665--668
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 665--668
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 665--668
+
+ []
+
+File: Images/hcmut.png Graphic file (type png)
+<use Images/hcmut.png>
+Package pdftex.def Info: Images/hcmut.png  used on input line 668.
+(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
+[60
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 670--673
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 670--673
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 670--673
+
+ []
+
+File: Images/hcmut.png Graphic file (type png)
+<use Images/hcmut.png>
+Package pdftex.def Info: Images/hcmut.png  used on input line 673.
+(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
+[61
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 675--678
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 675--678
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 675--678
+
+ []
+
+File: Images/hcmut.png Graphic file (type png)
+<use Images/hcmut.png>
+Package pdftex.def Info: Images/hcmut.png  used on input line 678.
+(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
+[62
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 680--683
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 680--683
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 680--683
+
+ []
+
+File: Images/hcmut.png Graphic file (type png)
+<use Images/hcmut.png>
+Package pdftex.def Info: Images/hcmut.png  used on input line 683.
+(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
+[63
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 685--688
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 685--688
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 685--688
+
+ []
+
+File: Images/hcmut.png Graphic file (type png)
+<use Images/hcmut.png>
+Package pdftex.def Info: Images/hcmut.png  used on input line 688.
+(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
+[64
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 690--693
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 690--693
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 690--693
+
+ []
+
+File: Images/hcmut.png Graphic file (type png)
+<use Images/hcmut.png>
+Package pdftex.def Info: Images/hcmut.png  used on input line 693.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
 [65
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 590--594
+Underfull \hbox (badness 10000) in paragraph at lines 695--698
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 590--594
+Underfull \hbox (badness 10000) in paragraph at lines 695--698
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--698
 
  []
 
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 603.
+Package pdftex.def Info: Images/hcmut.png  used on input line 698.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
 [66
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 605--608
+Underfull \hbox (badness 10000) in paragraph at lines 704--707
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 605--608
+Underfull \hbox (badness 10000) in paragraph at lines 704--707
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 605--608
+Underfull \hbox (badness 10000) in paragraph at lines 704--707
 
  []
 
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 608.
+Package pdftex.def Info: Images/hcmut.png  used on input line 707.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
 [67
 
+
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 709--712
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 709--712
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 709--712
+
+ []
+
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 611.
+Package pdftex.def Info: Images/hcmut.png  used on input line 712.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [68
+[68
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 616--619
+Underfull \hbox (badness 10000) in paragraph at lines 714--717
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 616--619
+Underfull \hbox (badness 10000) in paragraph at lines 714--717
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 616--619
+Underfull \hbox (badness 10000) in paragraph at lines 714--717
 
  []
 
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 619.
+Package pdftex.def Info: Images/hcmut.png  used on input line 717.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
 [69
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 621--624
+Underfull \hbox (badness 10000) in paragraph at lines 719--723
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 621--624
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 621--624
+Underfull \hbox (badness 10000) in paragraph at lines 719--723
 
  []
 
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 624.
+Package pdftex.def Info: Images/hcmut.png  used on input line 732.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
 [70
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 626--629
+Underfull \hbox (badness 10000) in paragraph at lines 734--737
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 626--629
+Underfull \hbox (badness 10000) in paragraph at lines 734--737
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 626--629
+Underfull \hbox (badness 10000) in paragraph at lines 734--737
 
  []
 
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 629.
+Package pdftex.def Info: Images/hcmut.png  used on input line 737.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
 [71
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 631--632
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 639--644
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 639--644
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 639--644
-
- []
-
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 651.
+Package pdftex.def Info: Images/hcmut.png  used on input line 786.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
-[72
+ [72
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 653--656
+Underfull \hbox (badness 10000) in paragraph at lines 798--809
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 653--656
+Underfull \hbox (badness 10000) in paragraph at lines 798--809
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 653--656
+Underfull \hbox (badness 10000) in paragraph at lines 798--809
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 798--809
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 798--809
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 798--809
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 817--819
 
  []
 
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 656.
+Package pdftex.def Info: Images/hcmut.png  used on input line 821.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
-[73
-
-]
+[73]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 658.
+Package pdftex.def Info: Images/hcmut.png  used on input line 826.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [74
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 663--666
+ [74]
+Underfull \hbox (badness 10000) in paragraph at lines 831--834
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 663--666
+Underfull \hbox (badness 10000) in paragraph at lines 831--834
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 663--666
+Underfull \hbox (badness 10000) in paragraph at lines 831--834
 
  []
 
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 666.
+Package pdftex.def Info: Images/hcmut.png  used on input line 834.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
 [75
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 668--671
+Underfull \hbox (badness 10000) in paragraph at lines 836--839
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 668--671
+Underfull \hbox (badness 10000) in paragraph at lines 836--839
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 668--671
+Underfull \hbox (badness 10000) in paragraph at lines 836--839
 
  []
 
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 671.
+Package pdftex.def Info: Images/hcmut.png  used on input line 839.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
 [76
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 673--676
+Underfull \hbox (badness 10000) in paragraph at lines 841--844
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 673--676
+Underfull \hbox (badness 10000) in paragraph at lines 841--844
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 673--676
+Underfull \hbox (badness 10000) in paragraph at lines 841--844
 
  []
 
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 676.
+Package pdftex.def Info: Images/hcmut.png  used on input line 844.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
 [77
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 678--681
+Underfull \hbox (badness 10000) in paragraph at lines 846--847
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 678--681
+Underfull \hbox (badness 10000) in paragraph at lines 854--859
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 678--681
+Underfull \hbox (badness 10000) in paragraph at lines 854--859
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 854--859
 
  []
 
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 681.
+Package pdftex.def Info: Images/hcmut.png  used on input line 866.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
 [78
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 683--686
+Underfull \hbox (badness 10000) in paragraph at lines 868--871
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 683--686
+Underfull \hbox (badness 10000) in paragraph at lines 868--871
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 683--686
+Underfull \hbox (badness 10000) in paragraph at lines 868--871
 
  []
 
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 686.
+Package pdftex.def Info: Images/hcmut.png  used on input line 871.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
 [79
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 688--691
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 688--691
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 688--691
-
- []
-
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 691.
+Package pdftex.def Info: Images/hcmut.png  used on input line 873.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
-[80
+ [80
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 693--694
+Underfull \hbox (badness 10000) in paragraph at lines 878--881
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 698--704
+Underfull \hbox (badness 10000) in paragraph at lines 878--881
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 698--704
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 698--704
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 698--704
+Underfull \hbox (badness 10000) in paragraph at lines 878--881
 
  []
 
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 708.
+Package pdftex.def Info: Images/hcmut.png  used on input line 881.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
 [81
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 710--713
+Underfull \hbox (badness 10000) in paragraph at lines 883--886
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 710--713
+Underfull \hbox (badness 10000) in paragraph at lines 883--886
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 710--713
+Underfull \hbox (badness 10000) in paragraph at lines 883--886
 
  []
 
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 713.
+Package pdftex.def Info: Images/hcmut.png  used on input line 886.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
 [82
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 888--891
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 888--891
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 888--891
+
+ []
+
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 715.
+Package pdftex.def Info: Images/hcmut.png  used on input line 891.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
- [83
+[83
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 720--723
+Underfull \hbox (badness 10000) in paragraph at lines 893--896
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 720--723
+Underfull \hbox (badness 10000) in paragraph at lines 893--896
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 720--723
+Underfull \hbox (badness 10000) in paragraph at lines 893--896
 
  []
 
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 723.
+Package pdftex.def Info: Images/hcmut.png  used on input line 896.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
 [84
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 725--728
+Underfull \hbox (badness 10000) in paragraph at lines 898--901
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 725--728
+Underfull \hbox (badness 10000) in paragraph at lines 898--901
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 725--728
+Underfull \hbox (badness 10000) in paragraph at lines 898--901
 
  []
 
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 728.
+Package pdftex.def Info: Images/hcmut.png  used on input line 901.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
 [85
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 730--733
+Underfull \hbox (badness 10000) in paragraph at lines 903--906
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 730--733
+Underfull \hbox (badness 10000) in paragraph at lines 903--906
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 730--733
+Underfull \hbox (badness 10000) in paragraph at lines 903--906
 
  []
 
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 733.
+Package pdftex.def Info: Images/hcmut.png  used on input line 906.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
 [86
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 735--744
+Underfull \hbox (badness 10000) in paragraph at lines 908--909
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 735--744
+Underfull \hbox (badness 10000) in paragraph at lines 913--919
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 913--919
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 913--919
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 913--919
 
  []
 
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 744.
+Package pdftex.def Info: Images/hcmut.png  used on input line 923.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
 [87
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 746--749
+Underfull \hbox (badness 10000) in paragraph at lines 925--928
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 746--749
+Underfull \hbox (badness 10000) in paragraph at lines 925--928
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 746--749
+Underfull \hbox (badness 10000) in paragraph at lines 925--928
 
  []
 
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 749.
+Package pdftex.def Info: Images/hcmut.png  used on input line 928.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
 [88
 
 ]
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 752.
+Package pdftex.def Info: Images/hcmut.png  used on input line 930.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
  [89
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 757--760
+Underfull \hbox (badness 10000) in paragraph at lines 935--938
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--760
+Underfull \hbox (badness 10000) in paragraph at lines 935--938
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--760
+Underfull \hbox (badness 10000) in paragraph at lines 935--938
 
  []
 
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 760.
+Package pdftex.def Info: Images/hcmut.png  used on input line 938.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
 [90
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 762--765
+Underfull \hbox (badness 10000) in paragraph at lines 940--943
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 762--765
+Underfull \hbox (badness 10000) in paragraph at lines 940--943
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 762--765
+Underfull \hbox (badness 10000) in paragraph at lines 940--943
 
  []
 
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 765.
+Package pdftex.def Info: Images/hcmut.png  used on input line 943.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
 [91
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 767--770
+Underfull \hbox (badness 10000) in paragraph at lines 945--948
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 767--770
+Underfull \hbox (badness 10000) in paragraph at lines 945--948
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 767--770
+Underfull \hbox (badness 10000) in paragraph at lines 945--948
 
  []
 
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 770.
+Package pdftex.def Info: Images/hcmut.png  used on input line 948.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
 [92
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 772--775
+Underfull \hbox (badness 10000) in paragraph at lines 950--959
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 772--775
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 772--775
+Underfull \hbox (badness 10000) in paragraph at lines 950--959
 
  []
 
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 775.
+Package pdftex.def Info: Images/hcmut.png  used on input line 959.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
 [93
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 777--780
+Underfull \hbox (badness 10000) in paragraph at lines 961--964
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 777--780
+Underfull \hbox (badness 10000) in paragraph at lines 961--964
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 777--780
+Underfull \hbox (badness 10000) in paragraph at lines 961--964
 
  []
 
 File: Images/hcmut.png Graphic file (type png)
 <use Images/hcmut.png>
-Package pdftex.def Info: Images/hcmut.png  used on input line 780.
+Package pdftex.def Info: Images/hcmut.png  used on input line 964.
 (pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
 [94
 
+]
+File: Images/hcmut.png Graphic file (type png)
+<use Images/hcmut.png>
+Package pdftex.def Info: Images/hcmut.png  used on input line 967.
+(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
+ [95
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 972--975
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 972--975
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 972--975
+
+ []
+
+File: Images/hcmut.png Graphic file (type png)
+<use Images/hcmut.png>
+Package pdftex.def Info: Images/hcmut.png  used on input line 975.
+(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
+[96
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 977--980
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 977--980
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 977--980
+
+ []
+
+File: Images/hcmut.png Graphic file (type png)
+<use Images/hcmut.png>
+Package pdftex.def Info: Images/hcmut.png  used on input line 980.
+(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
+[97
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 982--985
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 982--985
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 982--985
+
+ []
+
+File: Images/hcmut.png Graphic file (type png)
+<use Images/hcmut.png>
+Package pdftex.def Info: Images/hcmut.png  used on input line 985.
+(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
+[98
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 987--990
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 987--990
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 987--990
+
+ []
+
+File: Images/hcmut.png Graphic file (type png)
+<use Images/hcmut.png>
+Package pdftex.def Info: Images/hcmut.png  used on input line 990.
+(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
+[99
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 992--995
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 992--995
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 992--995
+
+ []
+
+File: Images/hcmut.png Graphic file (type png)
+<use Images/hcmut.png>
+Package pdftex.def Info: Images/hcmut.png  used on input line 995.
+(pdftex.def)             Requested size: 22.76204pt x 22.75928pt.
+[100
+
 ] 
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 786.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 786.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1001.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1001.
 (./solution.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 786.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 786.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1001.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1001.
+
 Package rerunfilecheck Info: File `solution.out' has not changed.
 (rerunfilecheck)             Checksum: 9ACD69E9D5D4D0E67D3F90269F491D07;14251.
  ) 
 Here is how much of TeX's memory you used:
- 35062 strings out of 492982
- 648269 string characters out of 6134896
- 711368 words of memory out of 5000000
+ 35104 strings out of 492982
+ 648564 string characters out of 6134896
+ 724372 words of memory out of 5000000
  37834 multiletter control sequences out of 15000+600000
  543666 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,25n,76p,10428b,463s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 67i,25n,76p,10428b,532s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texli
@@ -3835,10 +4198,10 @@ pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vnbx12.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/vntex/vnr/vnr10.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/vntex/vnr/vntt10.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /vntex/vnr/vntt8.pfb>
-Output written on solution.pdf (95 pages, 257653 bytes).
+Output written on solution.pdf (101 pages, 276965 bytes).
 PDF statistics:
- 1191 PDF objects out of 1200 (max. 8388607)
- 1067 compressed objects within 11 object streams
- 235 named destinations out of 1000 (max. 500000)
+ 1267 PDF objects out of 1440 (max. 8388607)
+ 1136 compressed objects within 12 object streams
+ 277 named destinations out of 1000 (max. 500000)
  874 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -310,6 +310,135 @@ Ta có điều phải chứng minh.
 	\item $[p \land (p \rightarrow q)] \rightarrow q \\\equiv \lnot(p \land (\lnot p \lor q))\lor q \\\equiv \lnot p \lor (p \land \lnot q) \lor q \\\equiv \textbf{T} \lor q \equiv \textbf{T}$
 	\item $[(p \lor q) \land (p \rightarrow r) \land (q \rightarrow r)] \rightarrow r \\\equiv \lnot [(p \lor q) \land (\lnot p \lor r) \land (\lnot q \lor r)] \lor r \\\equiv (\lnot p \land \lnot q) \lor (p \land \lnot r) \lor (q \land \lnot r) \lor r \\\equiv (\lnot p \land \lnot q) \lor (p \land \lnot r) \lor \textbf{T} \equiv \textbf{T}$
 \end{enumerate}
+\textbf{Bài tập 1.3.16:} Show that $p \leftrightarrow q$ and $(p \land q) \lor (\lnot p \land \lnot q)$ are logically
+equivalent. \\\ \\\
+\textbf{Lời giải:} \\\ \\\
+Ta có : \\\ 
+$p \leftrightarrow q \\\equiv (p \rightarrow q) \land (q \rightarrow p) \\\equiv (\lnot p \lor q) \land (\lnot q \lor p) \\\equiv ((\lnot p \lor q)\land \lnot q) \lor ((\lnot p \lor q)\land p) \\\equiv ((\lnot p \land \lnot q) \lor (q \land \lnot q)) \lor ((\lnot p \land p) \lor (q \land p)) \\\equiv (p \land q) \lor (\lnot p \land \lnot q)$ \\\ \\\
+\textbf{Bài tập 1.3.17:} Show that $\lnot(p \leftrightarrow q)$ and $p \leftrightarrow \lnot q$ are logically equivalent. \\\ \\\
+\textbf{Lời giải:} \\\ \\\
+Kết hợp kết quả từ câu 16, Ta có: \\\
+$\lnot(p \leftrightarrow q) \\\equiv \lnot((\lnot p \land \lnot q) \lor (p \land q)) \\\equiv (p \lor q) \land (\lnot p \lor \lnot q) \\\equiv (\lnot q \rightarrow p) \land (p \rightarrow \lnot q) \\\equiv p \leftrightarrow \lnot q$ \\\ \\\
+\textbf{Bài tập 1.3.18:} Show that $p \rightarrow q$ and $\lnot q \rightarrow \lnot p$ are logically equivalent. \\\ \\\
+\textbf{Lời giải: }\\\ \\\
+Bảng chân trị: \\\ \\\
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline 
+p & q & $\lnot p$ & $\lnot q$ & $p \rightarrow q$ & $\lnot q \rightarrow \lnot p$ \\ 
+\hline 
+0 & 0 & 1 & 1 & 1 & 1 \\ 
+\hline 
+0 & 1 & 1 & 0 & 1 & 1 \\ 
+\hline 
+1 & 0 & 0 & 1 & 0 & 0 \\ 
+\hline 
+1 & 1 & 0 & 0 & 1 & 1 \\ 
+\hline 
+\end{tabular} \\\ \\\
+Theo bảng chân trị, ta có điều phải chứng minh. \\\ \\\
+\textbf{Bài tập 1.3.19: }Show that $\lnot p \leftrightarrow q$ and $p \leftrightarrow \lnot q$ are logically equivalent. \\\ \\\
+\textbf{Lời giải:} \\\ \\\
+Bảng chân trị: \\\ \\\
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline 
+p & q & $\lnot p$ & $\lnot q$ & $\lnot p \leftrightarrow q$ & $p \leftrightarrow \lnot q$ \\ 
+\hline 
+0 & 0 & 1 & 1 & 0 & 0 \\ 
+\hline 
+0 & 1 & 1 & 0 & 1 & 1 \\ 
+\hline 
+1 & 0 & 0 & 1 & 1 & 1 \\ 
+\hline 
+1 & 1 & 0 & 0 & 0 & 0 \\ 
+\hline 
+\end{tabular} \\\ \\\
+Theo bảng chân trị, ta có điều phải chứng minh. \\\ \\\
+\textbf{Bài tập 1.3.20: }Show that $\lnot(p \oplus q)$ and $p \leftrightarrow q$ are logically equivalent. \\\ \\\
+Bảng chân trị: \\\ \\\
+\begin{tabular}{|c|c|c|c|c|}
+\hline 
+p & q & $p \oplus q$ & $\lnot(p \oplus q)$ & $p \leftrightarrow q$ \\ 
+\hline 
+0 & 0 & 0 & 1 & 1 \\ 
+\hline 
+0 & 1 & 1 & 0 & 0 \\ 
+\hline 
+1 & 0 & 1 & 0 & 0 \\ 
+\hline 
+1 & 1 & 0 & 1 & 1 \\ 
+\hline 
+\end{tabular} \\\ \\\
+Theo bảng chân trị, ta có điều phải chứng minh. \\\ \\\
+\textbf{Bài tập 1.3.21: }Show that $\lnot(p \leftrightarrow q)$ and $\lnot p \leftrightarrow q$ are logically equivalent. \\\ \\\
+\textbf{Lời giải: } \\\ \\\
+Kết hợp kết quả từ bài 17 và bài 19, ta có: \\\ \\\
+$\lnot (p \leftrightarrow q) \\\equiv p \leftrightarrow \lnot q \\\equiv \lnot p \leftrightarrow q$ \\\ \\\
+\textbf{Bài tập 1.3.22: }Show that $(p \rightarrow q) \land (p \rightarrow r)$ and $p \rightarrow (q \land r)$ are logically equivalent. \\\ \\\
+\textbf{Lời giải: } \\\ \\\
+Ta có: \\\
+$(p \rightarrow q) \land (p \rightarrow r) \\\equiv (\lnot p \lor q) \land (\lnot p \lor r) \\\equiv \lnot p \lor (q \land r) \\\equiv p \rightarrow (q \land r).$ \\\ \\\
+\textbf{Bài tập 1.3.23: }Show that $(p \rightarrow r) \land (q \rightarrow r)$ and $(p \lor q) \rightarrow r$ are logically equivalent. \\\ \\\
+\textbf{Lời giải:} \\\ \\\
+Ta có: \\\
+$(p \rightarrow r) \land (q \rightarrow r) \\\equiv (\lnot p \lor r) \land (\lnot q \lor r) \\\equiv r \lor (\lnot p \land \lnot q) \\\equiv r \lor \lnot (p \lor q)\\\equiv (p \lor q) \rightarrow r.$ \\\ \\\
+\textbf{Bài tập 1.3.24: }Show that $(p \rightarrow q) \lor (p \rightarrow r)$ and $p \rightarrow (q \lor r)$ are logically equivalent. \\\ \\\
+\textbf{Lời giải:} \\\ \\\
+Ta có: \\\
+$(p \rightarrow q) \lor (p \rightarrow r) \\\equiv (\lnot p \lor q) \lor (\lnot p \lor r) \\\equiv \lnot p \lor (q \lor r) \\\equiv p \rightarrow (q \lor r).$ \\\ \\\
+\textbf{Bài tập 1.3.25: }Show that $(p \rightarrow r) \lor (q \rightarrow r)$ and $(p \land q) \rightarrow r$ are logically equivalent. \\\ \\\
+\textbf{Lời giải: } \\\ \\\
+Ta có: \\\
+$(p \rightarrow r) \lor (q \rightarrow r) \\\equiv (\lnot p \lor r) \lor (\lnot q \lor r) \\\equiv (\lnot p \lor \lnot q) \lor r \\\equiv \lnot (p \land q) \lor r \\\equiv (p \land q) \rightarrow r.$ \\\ \\\
+\textbf{Bài tập 1.3.26: }Show that $\lnot p \rightarrow (q \rightarrow r)$ and $q \rightarrow (p \lor r)$ are logically equivalent. \\\ \\\
+\textbf{Lời giải: } \\\ \\\
+Ta có: \\\
+$\lnot p \rightarrow (q \rightarrow r) \\\equiv \lnot (\lnot p) \lor (\lnot q \lor r) \\\equiv \lnot q \lor (p \lor r) \\\equiv q \rightarrow (p \lor r)$ \\\ \\\
+\textbf{Bài tập 1.3.27: }Show that $p \leftrightarrow q$ and $(p \rightarrow q) \land (q \rightarrow p)$ are logically equivalent. \\\ \\\
+\textbf{Lời giải: }\\\ \\\
+Bảng chân trị: \\\ \\\
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline 
+p & q & $p \rightarrow q$ & $q \rightarrow p$ & $(p \rightarrow q) \land (q \rightarrow p)$ & $p \leftrightarrow q$ \\ 
+\hline 
+0 & 0 & 1 & 1 & 1 & 1 \\ 
+\hline 
+0 & 1 & 1 & 0 & 0 & 0 \\ 
+\hline 
+1 & 0 & 0 & 1 & 0 & 0 \\ 
+\hline 
+1 & 1 & 1 & 1 & 1 & 1 \\ 
+\hline 
+\end{tabular} \\\ \\\
+Theo bảng chân trị, ta có điều phải chứng minh. \\\ \\\
+\textbf{Bài tập 1.3.28: }Show that $p \leftrightarrow q$ and $\lnot p \leftrightarrow \lnot q$ are logically equivalent. \\\ \\\
+\textbf{Lời giải: } \\\ \\\
+Ta có: \\\ 
+$p \leftrightarrow q \\\equiv (p \rightarrow q) \land (q \rightarrow p) \\\equiv (\lnot q \rightarrow \lnot p) \land (\lnot p \rightarrow \lnot q) \\\equiv \lnot p \leftrightarrow \lnot q.$ \\\ \\\
+\textbf{Bài tập 1.3.32: }Show that $(p \land q) \rightarrow r$ and $(p \rightarrow r) \land (q \rightarrow r)$ are not logically equivalent. \\\ \\\
+\textbf{Lời giải: } \\\ \\\ 
+Với p, r nhận chân trị False và q nhận chân trị True, ta có: \\\ 
+\begin{enumerate}
+	\item $(p \land q) \rightarrow r \equiv (\textbf{F} \land \textbf{T}) \rightarrow \textbf{F} \equiv \textbf{F} \rightarrow \textbf{F} \equiv \textbf{T}.$ 
+	\item $(p \rightarrow r) \land (q \rightarrow r) \equiv (\textbf{F} \rightarrow \textbf{F}) \land (\textbf{T} \rightarrow \textbf{F}) \equiv \textbf{T} \land \textbf{F} \equiv \textbf{F}.$
+\end{enumerate}
+Hai giá trị này không tương đương logic với nhau, do đó $(p \land q) \rightarrow r$ và $(p \rightarrow r) \land (q \rightarrow r)$ không tương đương logic với nhau (đpcm). \\\ \\\
+\textbf{Bài tập 1.3.39: }Why are the duals of two equivalent compound propositions also equivalent, where these compound propositions contain only the operators $\land$, $\lor$, and $\lnot$? \\\ \\\
+\textbf{Lời giải: } \\\ \\\
+Gọi p và q là hai mệnh đề ghép tương đương, trong đó p và q chỉ chứa các toán tử $\land$, $\lor$, và $\lnot$. Vì $p$ và $q$ tương đương nhau, nên $\lnot p$ và $\lnot q$ cũng tương đương nhau. Sử dụng luật De Morgan nhiều lần để đẩy toán tử $\lnot$ trong $p$ và $q$ sâu nhất có thể, khi đó, toán tử $\land$ sẽ thay bằng $\lor$, $\textbf{T}$ thay bằng $\textbf{F}$, và ngược lại. Từ đó, mệnh đề $\lnot p$ và $\lnot q$ sẽ giống với $p^*$ và $q^*$, ngoại trừ những mệnh đề đơn vị $p_i$ được thay bằng mệnh đề phủ định của nó. Khi đó $p^*$ và $q^*$ tương đương nhau, vì $\lnot p$ và $\lnot q$ tương đương nhau. \\\ \\\
+\textbf{Bài tập 1.3.40: }Find a compound proposition involving the propositional variables p, q, and r that is true when p and q are true and r is false, but is false otherwise. \\\ \\\
+\textbf{Lời giải: } \\\ \\\
+Xét mệnh đề $p \land q \land \lnot r.$ \\\
+Ta có bảng giá trị sau: \\\  \\\
+\begin{tabular}{|c|c|c|c|c|}
+\hline 
+p & q & r & $\lnot r$ & $p \land q \land \lnot r$\\ 
+\hline 
+1 & 1 & 0 & 1 & 1\\ 
+\hline 
+0 & 0 & 1 & 0 & 0\\ 
+\hline 
+\end{tabular} \\\ \\\
+Theo bảng giá trị này, ta suy ra được mệnh đề trên thỏa mãn yêu cầu đề bài. \\\ \\\
 \clearpage
 
 \section{DS\_predicatelogic.pdf}
@@ -608,6 +737,92 @@ Q.E.D
 \clearpage
 
 \subsection{Bonus}
+
+\textbf{Bài tập 1.5.18: }Express each of these system specifications using predicates, quantifiers, and logical connectives, if necessary.
+\begin{enumerate}[a)]
+\item At least one console must be accessible during every
+fault condition.
+\item The e-mail address of every user can be retrieved
+whenever the archive contains at least one message sent by every user on the system.
+\item For every security breach there is at least one mechanism that can detect that breach if and only if there is a process that has not been compromised.
+\item There are at least two paths connecting every two distinct endpoints on the network.
+\item No one knows the password of every user on the system except for the system administrator, who knows
+all passwords.
+\end{enumerate}
+\textbf{Lời giải:}
+\begin{enumerate}[a)]
+\item $P(x)$: Console $x$ can be accessible. \\\
+$Q(x)$: $x$ is a fault condition. \\\
+Câu trên được viết lại thành: $\forall x Q(x) (\exists y P(y)).$
+\item $P(x)$: The e-mail address of $x$ can be retrieved. \\\
+$Q(x)$: The archive contains messages sent by $x$. \\\
+Câu trên được viết lại thành: $(\forall x Q(x))\rightarrow (\forall y P(y)).$
+\item $P(x)$: $x$ is security breach. \\\
+$Q(x,y)$: $x$ is a mechanism that can detech security breach $y$. \\\
+$R(x)$: $x$ is the process that has not been compromised. \\\
+Câu trên được viết lại thành: $\forall x P(x) ((\exists yQ(y,x)) \leftrightarrow (\exists zR(z)))$.
+\item $P(x,y,z)$: $x$ and $y$ are connected by $z$. \\\
+Câu trên được viết lại thành: $\forall x \forall y ((x \neq y) \rightarrow (\exists a \exists b ((a \neq b) \rightarrow (P(x,y,a) \land P(x,y,b))))).$
+\item $P(x,y)$: $x$ knows the password of $y$. \\\
+$Q(x):$ $x$ is the system administrator. \\\
+Câu trên được viết lại thành: $(\forall x (\lnot Q(x))(\exists y (\lnot P(x,y))) \land ((\forall xQ(x)) \rightarrow (\forall y P(x,y))).$
+\end{enumerate} 
+\textbf{Câu 1.5.19: }Express each of these statements using mathematical and logical operators, predicates, and quantifiers, where the domain consists of all integers.
+\begin{enumerate}[a)]
+\item The sum of two negative integers is negative.
+\item The difference of two positive integers is not necessarily positive.
+\item The sum of the squares of two integers is greater than or equal to the square of their sum.
+\item The absolute value of the product of two integers is the product of their absolute values.
+\end{enumerate}
+\textbf{Lời giải: }
+\begin{enumerate}[a)]
+\item $\forall x\forall y (x < 0 \land y < 0) \rightarrow (x+y < 0)$.
+\item $\exists x \exists y (x > 0 \land y > 0) \rightarrow (x-y \leq 0)$.
+\item $\forall x \forall y(x^2+y^2 \geq (x+y)^2)$.
+\item $\forall x \forall y(|x.y| = |x|.|y|)$.
+\end{enumerate}
+\textbf{Câu 1.5.20: }Express each of these statements using predicates, quantifiers, logical connectives, and mathematical operators where the domain consists of all integers.
+\begin{enumerate}[a)]
+\item The product of two negative integers is positive.
+\item The average of two positive integers is positive.
+\item The difference of two negative integers is not necessarily negative.
+\item The absolute value of the sum of two integers does not exceed the sum of the absolute values of these integers.
+\end{enumerate}
+\textbf{Lời giải: }
+\begin{enumerate}[a)]
+\item $\forall x \forall y (x < 0 \land y < 0) \rightarrow (xy > 0)$.
+\item $\forall x \forall y (x > 0 \land y > 0) \rightarrow (\frac{x+y}{2} > 0)$.
+\item $\exists x \exists y (x < 0 \land y < 0) \rightarrow (x-y \geq 0)$.
+\item $\forall x \forall y (|x+y| \leq |x|+|y|)$.
+\end{enumerate}
+\textbf{Câu 1.5.21: }Use predicates, quantifiers, logical connectives, and mathematical operators to express the statement that every positive integer is the sum of the squares of four integers. \\\ \\\
+\textbf{Lời giải: } \\\ \\\
+Domain: Tập số nguyên. \\\
+Ta viết lại câu trên thành: \\\
+$\forall x (x > 0) \rightarrow (\exists a,b,c,d(x = a^2+b^2+c^2+d^2)).$ \\\ \\\
+\textbf{Câu 1.5.22: }Use predicates, quantifiers, logical connectives, and mathematical operators to express the statement that there is a positive integer that is not the sum of three squares. \\\ \\\
+\textbf{Lời giải:} \\\ \\\
+Domain: Tập số nguyên. \\\
+Ta viết lại câu trên thành: \\\
+$\exists x (x > 0) \rightarrow (\forall a,b,c(x \neq a^2+b^2+c^2)).$\\\ \\\
+\textbf{Câu 1.5.23: }Express each of these mathematical statements using predicates, quantifiers, logical connectives, and mathematical operators.
+\begin{enumerate}[a)]
+\item The product of two negative real numbers is positive.
+\item The difference of a real number and itself is zero.
+\item Every positive real number has exactly two square
+roots.
+\item A negative real number does not have a square root
+that is a real number.
+\end{enumerate}
+\textbf{Lời giải: } \\\ \\\
+Domain: Tập số thực.
+\begin{enumerate}[a)]
+\item $\forall x \forall y(x < 0 \land y < 0) \rightarrow (xy > 0).$
+\item $\forall x(x - x = 0).$
+\item $\forall x (x>0)\rightarrow ((\exists a \exists b ((a \neq b) \land (a^2 = b^2 = x))) \land (\forall c ((c \neq a) \land (c \neq b))\rightarrow(c^2 \neq x)).$
+\item $\forall x (x < 0) \rightarrow (\forall y (y^2 \neq x)).$
+\end{enumerate}
+
 \clearpage
 
 \section{New\_Homework02b\_Proving\_methods.pdf}
