@@ -183,19 +183,188 @@ KHOA KHOA HỌC - KỸ THUẬT MÁY TÍNH
 \textbf{Lời giải:} \\\ \\\
 \clearpage
 \subsubsection{Bài tập 7}
-\textbf{Đề bài:} 
+\textbf{Đề bài:} Evaluate each of these expressions
+a) $11000 \land (01011 \lor 11011)$
+b) $(01111 \land 10101) \lor 01000$
 \\\ \\\
 \textbf{Lời giải:} \\\ \\\
+\begin{enumerate}
+	\item [a)]
+	$11000 \land (01011 \lor 11011)$\\$\equiv11000 \land 11011$\\$\equiv11000$
+	\item [b)]
+	$(01111 \land 10101) \lor 01000$\\$\equiv 00101 \lor 01000$\\ $\equiv 01101$\\
+\end{enumerate}
 \clearpage
 \subsubsection{Bài tập 8}
-\textbf{Đề bài:} 
+\textbf{Đề bài:} Show that each of these conditional statements is a tautology by using truth tables.
 \\\ \\\
 \textbf{Lời giải:} \\\ \\\
+	\begin{table} [h]
+	\flushleft a) $(p \land q) \implies p$\\
+	\centering
+		\begin{tabular} {|c|c|c|c|}
+			\hline
+			p&q&$p \land q$&$(p \land q) \implies p$\\
+			\hline
+			1&1&1&1\\
+			1&0&0&1\\
+			0&1&0&1\\
+			0&0&0&1\\
+			\hline
+		\end{tabular}
+	\\
+	\flushleft b) $p \implies (p \lor q)$\\
+	\centering
+		\begin{tabular}{|c|c|c|c|}
+			\hline
+			p&q&$p \lor q$&$p \implies (p \lor q)$\\
+			\hline
+			1&1&1&1\\
+			1&0&1&1\\
+			0&1&1&1\\
+			0&0&0&1\\
+			\hline
+		\end{tabular}
+	\\
+	\flushleft	c)  $\lnot p \implies (p \implies q) $\\ 
+	\centering
+		\begin{tabular} {|c|c|c|c|c|}
+			\hline
+			p&q&$\lnot p$&$p \implies q$&$\lnot p \implies (p \implies q)$\\
+			\hline
+			1&1&0&1&1\\
+			1&0&0&0&1\\
+			0&1&1&1&1\\
+			0&0&1&1&1\\	
+			\hline
+		\end{tabular}
+	\\
+	\flushleft	d)   $(p \land q) \implies (p \implies q)$\\
+	\centering
+		\begin{tabular} {|c|c|c|c|c|}
+			\hline
+			p&q&$p \land q$&$p \implies q$&$(p \land q) \implies (p \implies q)$\\
+			\hline
+			1&1&1&1&1\\
+			1&0&0&0&1\\
+			0&1&0&1&1\\
+			0&0&0&1&1\\
+			\hline
+		\end{tabular}
+	\\
+	\flushleft	e)   $\lnot (p \implies q) \implies p $\\
+	\centering
+		\begin{tabular} {|c|c|c|c|c|}
+			\hline
+			p&q&$p \implies q$&$\lnot (p \implies q)$&$\lnot (p \implies q) \implies p$\\
+			\hline
+			1&1&1&0&1\\
+			1&0&0&1&1\\
+			0&1&1&0&1\\
+			0&0&1&0&1\\
+			\hline
+		\end{tabular}
+	\\
+	\flushleft	f)   $\lnot(p \implies q) \implies \lnot q $\\
+	\centering
+		\begin{tabular} {|c|c|c|c|c|c|}
+			\hline
+			p&q&$\lnot q$&$p \implies q$&$\lnot (p \implies q)$&$\lnot (p \implies q) \implies \lnot q$\\
+			\hline
+			1&1&0&1&0&1\\
+			1&0&1&0&1&1\\
+			0&1&0&1&0&1\\
+			0&0&1&1&0&1\\
+			\hline
+		\end{tabular}
+	\\
+	\flushleft	g)   $[\lnot p \land (p \lor q )] \implies q $\\
+	\centering
+		\begin{tabular} {|c|c|c|c|c|c|}
+			\hline
+			p&q&$\lnot p$&$p \lor q$&$\lnot p \land (p \lor q)$&$[\lnot p \land (p \lor q )] \implies q $\\
+			\hline
+			1&1&0&1&0&1\\
+			1&0&0&1&0&1\\
+			0&1&1&1&1&1\\
+			0&0&1&0&0&1\\
+			\hline
+		\end{tabular}
+	\\	
+	\flushleft	h)  $[(p \implies q) \land (q \implies r)] \implies (p \implies r)$\\
+	\centering
+		\begin{tabular} {|c|c|c|c|c|c|c|c|}
+			\hline
+			p&q&r&$p \implies q$&$q \implies r$&$(p \implies q) \land (q \implies r)$&$p \implies r$&$[(p \implies q) \land (q \implies r)] \implies (p \implies r)$\\
+			\hline
+			1&1&1&1&1&1&1&1\\
+			1&1&0&1&0&0&0&1\\
+			1&0&1&0&1&0&1&1\\
+			1&0&0&0&1&0&0&1\\
+			0&1&1&1&1&1&1&1\\
+			0&1&0&1&0&0&1&1\\
+			0&0&1&1&1&0&1&1\\
+			0&0&0&1&1&0&1&1\\
+			\hline
+		\end{tabular}
+	\end{table}
 \clearpage
 \subsubsection{Bài tập 9}
-\textbf{Đề bài:} 
+\textbf{Đề bài:} Show that these compound propositionals are logically equivalent.
 \\\ \\\
 \textbf{Lời giải:} \\\ \\\
+	\begin{enumerate}
+	\item[a)] $\lnot (p \iff q)$ và $\lnot p \iff q$
+	\begin{table} [h]
+		\centering
+		\begin{tabular} {|c|c|c|c|c|c|c|}
+			\hline
+			$p$&$q$&$\lnot p$&$  p \iff q$&$\lnot (p \iff q)$&$ \lnot p \iff q$& $\lnot (p \iff q) \vDash \lnot p \iff q$\\
+			\hline
+			1&0&0&0&0&1&1\\
+			1&1&0&1&0&0&1\\
+			0&1&1&0&1&1&1\\
+			0&0&1&1&0&0&1\\
+			\hline
+		\end{tabular}
+	\end{table}
+	\item[b)]	$(p \implies q) \land (p \implies r) $ và $ p \implies (q \land r)$\\
+				$(p \implies q) \land (p \implies r)$\\
+				$\equiv (\lnot p \lor q) \land (\lnot p \lor r)$\\
+				$\equiv  \lnot p \land (q \lor r)$\\
+				$\equiv  p \implies (q \lor r)$\\
+	\item[c)]   $(p\implies r) \land (q \implies r) $ và $ (p \lor q) \implies r$\\ 
+				$(p\implies r) \land (q \implies r)$\\
+				$\equiv (\lnot p \lor r) \land (\lnot q \lor r)$\\
+				$\equiv (\lnot q \land \lnot p) \lor r$\\
+				$\equiv  \lnot(\lnot p \land \lnot q) \implies r$\\
+				$\equiv (p \lor q) \implies r$\\
+	\item[d)]	$(p \implies q) \lor (p \implies r) $ và $ p \implies (q \lor r)$\\
+				$(p \implies q) \lor (p \implies r)$\\
+				$\equiv  \lnot p \lor q \lor \lnot p \lor r$\\
+				$\equiv  \lnot p \lor (q \lor r)$\\ $\equiv  p \implies (q \lor r)$\\
+	\item[e)]	$\lnot p \implies (q \implies r) $ và $ q \implies (p \lor r)$\\
+				$\lnot p \implies (q \implies r)$\\
+				$\equiv  \lnot p \implies (\lnot q \lor r)$\\
+				$\equiv  \lnot (\lnot p) \lor \lnot q \lor r)$\\
+				$\equiv p \lor \lnot q \lor r$\\
+				$\equiv  \lnot q \lor p \lor r $\\
+				$\equiv  q \implies (p \lor r)$\\
+	\item[f)] $p \iff q $ và $ (p \implies q) \land (q \implies p)$
+	\begin{table} [h]
+		\centering
+		\begin{tabular} {|c|c|c|c|c|c|c|}
+			\hline
+			$p$&$q$&$p \implies q$&$q \implies p$&$(p \implies q) \land (q \implies p)$ &$p \iff q$ &$p \iff q \vDash (p \implies q) \land (q \implies p)$\\
+			\hline
+			1&1&1&1&1&1&1\\
+			1&0&0&1&0&0&1\\
+			0&1&1&0&0&0&1\\
+			0&0&1&1&1&1&1\\
+			\hline
+		\end{tabular}
+	\end{table}
+\end{enumerate}
 \clearpage
 \subsubsection{Bài tập 10}
 \textbf{Đề bài: } Show that these compound propositionals are logically equivalent by developing a series of logical equivalences \\\ \\\
@@ -271,14 +440,36 @@ Ta có thể biểu diễn sang: $(m \lor \lnot r \lor b) \rightarrow \lnot g$.
 \textbf{Lời giải:} \\\ \\\
 \clearpage
 \subsubsection{Bài tập 5}
-\textbf{Đề bài:} 
+\textbf{Đề bài:} show that $[p \land (p \implies q)] \implies q$ is a tautology using truth table.
 \\\ \\\
 \textbf{Lời giải:} \\\ \\\
+$[p \land (p \implies q)] \implies q$\\
+\begin{table} [h]
+	\centering
+	\begin{tabular} {|c|c|c|c|c|}
+		\hline
+		$p$&$q$&$p \implies q$& $p \land (p \implies q)$ &$[p \land (p \implies q)]\implies q$\\
+		\hline
+		1&1&1&1&1\\
+		\hline
+		1&0&0&0&1\\
+		\hline
+		0&1&1&0&1\\
+		\hline
+		0&0&1&0&1\\
+		\hline
+	\end{tabular}
+\end{table}
 \clearpage
 \subsubsection{Bài tập 6}
-\textbf{Đề bài:} 
+\textbf{Đề bài:} Prove that $(p \implies q) \lor (p \implies r)$ và $p \implies (q \lor r)$ are logically equipvalent( without using this equipvalent from the table).
 \\\ \\\
 \textbf{Lời giải:} \\\ \\\
+$(p \implies q) \lor (p \implies r)$ và $p \implies (q \lor r)$
+$(p \implies q) \lor (p \implies r)$\\
+$\equiv (\lnot p \lor q) \lor (\lnot p \lor r)$\\
+$\equiv \lnot p \lor (q \lor r)$\\
+$\equiv p \implies (q \lor r)$\\
 \clearpage
 \subsubsection{Bài tập 7}
 \textbf{Đề bài: }Find an assignment of the variables $p, q, r$ such that the proposition $(p \lor \lnot q) \land (p \lor q) \land (q \lor r) \land (q \lor \lnot r) \land (r \lor \lnot p) \land (r \lor p)$ is satisfied. For a bonus 5 points, prove that this assignment is unique. \\\ \\\
@@ -296,6 +487,207 @@ Ta có điều phải chứng minh.
 \textbf{Lời giải:} \\\ \\\
 \clearpage
 \subsection{Bonus}
+\textbf{Bài tập 1.2 19-23}
+\begin{enumerate}
+	\item[19)] A is a Knight, B is a Knave.
+	\item[20)] A is a Knave, B is a Knight.
+	\item[21)] A,B are Knights.
+	\item[22)] A,B are independent to each other  so they can be a Knight or Knave. We can not conclude anything in more details.
+	\item[23)] A is a Knave, B is a Knight.
+\end{enumerate}
+\textbf{Bài tập 1.2 24-31}
+\begin{enumerate}
+	\item[24)] We have two case:\\+Case(1):A is a Knight, B is a Spy, C is a Knave.\\+Case(2): A is a Spy, B is a Knight, C is a Knave.
+	\item[25)] A is a Knight, B is a Spy, C is a Knave
+	\item[26)] In this situation, there can't be a Knave or Knight in one of them.So we have no solution.
+	\item[27)] A is a Knight, B is a Spy, C is a Knave.
+	\item[28)] A is a Knave, B is a Spy, C is a Knight.
+	\item[29)] Any of them can be a Knight, Knave or Spy.
+	\item[30)] We have two case:\\+Case(1):A is a Knight, B is a Spy, C is a Knave.\\+Case(2): A is a Spy, B is a Knight, C is a Knave.
+	\item[31)] We can't determine any solution.
+\end{enumerate}
+\textbf{Bài tập 1.2.40} Find the output of each of these combinatorial circuits.\\
+\begin{enumerate}
+	\item[a)] $\lnot p \lor  \lnot q$
+	\item[b)] $(p \lor (\lnot p \land q))$	
+\end{enumerate}	
+\textbf{Bài tập 1.2.41} Find the output of each of these combinatorial circuits.\\
+\begin{enumerate}
+	\item[a)] $\lnot(p \land (q \lor \lnot r))$
+	\item[b)] $(\lnot p \land \lnot q) \lor (p \land r)$	
+\end{enumerate}
+\textbf{Bài tập 1.2.42} Construct a combinatorial circuit using inverters, OR gates, and AND gates that produces the output $(p \lor \lnot r) \lor (\lnot q lor r)$ from input bits p, q, and r.
+\textbf{Bài tập 1.2.43} Construct a combinatorial circuit using inverters, OR gates, and AND gates that produces the output $((\lnot p \lor \lnot r) \lor \lnot p) \lor (\lnot p \land (p \lor r))$\\ from input bits p, q, and r.
+\textbf{Bài tập 1.3.8:}  Use De Morgan’s laws to find the negation of each of the following statements.
+\begin{enumerate}
+	\item[a)] Kwame will take a job in industry or go to graduate school.
+				A(x): x will take a job in industry.\\
+				B(x): x will go to graduate school.\\
+				Domains for x all human being.\\
+				A(Kwame) $\lor$ B(Kwame)\\
+				$\rightarrow \lnot (A(Kwame) \lor B(Kwame))$\\
+				$\equiv \lnot A(Kwame) \land \lnot B(Kwame)$\\
+				Kwame won't take a job in industry amd won't go to graduate school.
+	\item[b)] Yoshiko knows Java and calculus.
+				A(x): x knows Java.\\
+				B(x): x knows calculus.\\
+				A(Yoshiko) $\land$ B(Yoshiko).\\
+				$\rightarrow \lnot (A(Yoshiko) \land B(Yoshiko))$\\
+				$\equiv \lnot A(Yoshiko) \lor \lnot B(Yoshiko).$\\
+				Yoshiko doesn't know Java or Calculus.\\
+	\item[c)] James is young and strong.
+				A(x): x is young.\\
+				B(x): x is strong.\\
+				A(James) $\land$ B(James).\\
+				$\rightarrow \lnot (A(James) \land B(James)$\\
+				$\equiv \lnot A(James) \lor \lnot B(James).$\\
+				James isn't strong or young.\\
+	\item[d)] Rita will move to Oregon or Washington.
+				A(x): x is move to Oregon.\\
+				B(x): x is move to Washington.\\
+				A(Rita) $\lor$ B(Rita).\\
+				$\rightarrow \lnot (A(x) \lor B(x))$\\
+				$\equiv \lnot A(Rita) \land \lnot B(Rita)$.\\
+				Rita doesn't go to Oregon or Washington.\\
+\end{enumerate}
+\textbf{Bài tập 1,3.9:} Show that each of these conditional statements is a tautology by using truth tables.
+\begin{enumerate}
+	\begin{table} [h]
+		\item[a)] $(p \land q) \implies p$
+		\centering
+		\begin{tabular} {|c|c|c|c|}
+			\hline
+			p&q&$p \land q$&$(p \land q) \implies p$\\
+			\hline
+			1&1&1&1\\
+			1&0&0&1\\
+			0&1&0&1\\
+			0&0&0&1\\
+			\hline
+		\end{tabular}
+		\item[b)] $p \implies (p \lor q)$
+		\centering
+		\begin{tabular} {|c|c|c|c|}
+			\hline
+			p&q&$p \lor q$&$p \implies q(p \lor q)$\\
+			\hline
+			1&1&1&1\\
+			1&0&1&1\\
+			0&1&1&1\\
+			0&0&0&1\\
+			\hline
+		\end{tabular}
+		\item[c)] $\lnot p \implies (p \implies q)$
+		\centering
+		\begin{tabular} {|c|c|c|c|c|}
+			\hline
+			p&q&$\lnot p$&$p \implies q$&$\lnot p \implies (p \implies q)$\\
+			\hline
+			1&1&0&1&1\\
+			1&0&0&0&1\\
+			0&1&1&1&1\\
+			0&0&1&1&1\\
+			\hline
+		\end{tabular}
+		\item[d)] $(p \lor q) \implies p \implies q$
+		\centering
+		\begin{tabular} {|c|c|c|c|c|}
+			\hline
+			p&q&$p \lor q$&$p \implies q$&$(p \lor q) \implies p \implies q$\\
+			\hline
+			1&1&1&1&1\\
+			1&0&0&0&1\\
+			0&1&0&1&1\\
+			0&0&0&1&1\\
+			\hline
+		\end{tabular}
+		\item[e)] $\lnot (p \implies q) \implies p$
+		\centering
+		\begin{tabular} {|c|c|c|c|c|}
+			\hline
+			p&q&$p \implies q$&$\lnot (p \implies q)$&$\lnot (p \implies q) \implies p$\\
+			\hline
+			1&1&1&0&1\\
+			1&0&0&1&1\\
+			0&1&1&0&1\\
+			0&0&1&0&1\\
+			\hline
+		\end{tabular}
+		\item[f)] $\lnot(p \implies q) \implies \lnot q$
+		\centering
+		\begin{tabular} {|c|c|c|c|c|c|}
+			\hline
+			p&q&$\lnot q$&$p \implies q$&$\lnot (p \implies q)$&$\lnot(p \implies q) \implies \lnot q$\\
+			\hline
+			1&1&0&1&0&1\\
+			1&0&1&0&1&1\\
+			0&1&0&1&0&1\\
+			0&0&1&1&0&1\\
+			\hline
+		\end{tabular}
+	\end{table}
+\end{enumerate}
+\textbf{Bài tập 1.3.10:} Show that each of these conditional statements is a tautology by using truth tables.
+\begin{enumerate}
+	\begin{table} [h]
+		\item[a)] $(\lnot p \land (p \lor q)) \implies q$
+		\centering
+		\begin{tabular} {|c|c|c|c|c|c|}
+			\hline
+			p&q&$\lnot p$&$p \lor q$&$\lnot p \land (p \lor q)$&$(\lnot p \land (p \lor q)) \implies q$\\	
+			\hline
+			1&1&0&1&0&1\\
+			1&0&0&1&0&1\\
+			0&1&1&1&1&1\\
+			0&0&1&0&0&1\\
+			\hline
+		\end{tabular}
+		\item[b)] $[(p \implies q) \land (q \implies r)] \implies (p \implies r)$
+		\centering
+		\begin{tabular} {|c|c|c|c|c|c|c|c|}
+			\hline
+			p&q&r&$p \implies q$&$q \implies r$&$(p \implies q) \land (q \implies r)$&$p \implies r$&$[(p \implies q) \land (q \implies r)] \implies (p \implies r)$\\
+			\hline
+			1&1&1&1&1&1&1&1\\
+			1&1&0&1&0&0&0&1\\
+			1&0&1&0&1&0&1&1\\
+			1&0&0&0&1&0&0&1\\
+			0&1&1&1&1&1&1&1\\
+			0&1&0&1&0&0&1&1\\
+			0&0&1&1&1&1&1&1\\
+			0&0&0&1&1&1&1&1\\
+			\hline
+		\end{tabular}
+		\item[c)] $[p \land (p \implies q)] \implies q$
+		\centering
+		\begin{tabular} {|c|c|c|c|c|}
+			\hline
+			p&q&$p \implies q$&$p \land (p \implies q)$&$[p \land (p \implies q)] \implies q$\\
+			\hline
+			1&1&1&1&1\\
+			1&0&0&0&1\\
+			0&1&1&0&1\\
+			0&0&1&0&1\\
+			\hline
+		\end{tabular}
+		\item[d)] $[(p \lor q) \land (p \implies r) \land (q \implies r)] \implies r$
+		\centering
+		\begin{tabular} {|c|c|c|c|c|c|c|c|c|}
+			\hline
+			p&q&r&$p \lor q$&$p \implies r$&$q \implies r$&$(p \lor q) \land (p \implies r)$&$(p \lor q) \land (p \implies r) \land (q \implies r)$&$[(p \lor q) \land (p \implies r) \land (q \implies r)] \implies r$\\
+			\hline
+			1&1&1&1&1&1&1&1&1\\
+			1&1&0&1&0&0&0&0&1\\
+			1&0&1&1&1&1&1&1&1\\
+			1&0&0&1&0&1&0&0&1\\
+			0&1&1&1&1&1&1&1&1\\
+			0&1&0&1&1&0&1&0&1\\
+			0&0&1&0&1&1&0&0&1\\
+			0&0&0&0&1&1&0&0&1\\
+			\hline			
+		\end{tabular}
+	\end{table}
+\end{enumerate}
 \textbf{Bài tập 1.3.12:} Show that each conditional statement here is a tautology without using truth tables: 
 \begin{enumerate}[a)]
 	\item $[\lnot p \land (p \lor q)] \rightarrow q$
@@ -504,39 +896,74 @@ Theo bảng giá trị này, ta suy ra được mệnh đề trên thỏa mãn y
 \textbf{Lời giải:} \\\ \\\
 \clearpage
 \subsubsection{Bài tập 15}
-\textbf{Đề bài:} 
+\textbf{Đề bài:} Use rules of inference to show that if $\forall x (P(x) \lor Q(x)), \forall x (\lnot Q(x) \lor S(x)), \forall x (R(x) \implies \lnot S(x))$ and $ \exists x \lnot P(x)$ are true, then $\exists x \lnot R(x) is true$.
 \\\ \\\
 \textbf{Lời giải:} \\\ \\\
+\begin{enumerate}
+	\item $\exists x \lnot P(x)$ \hfill Premise\\
+	\item $\lnot P(a)$\hfill Existentail Instantiation from (1)\\
+	\item $ \forall x (P(x) \lor Q(x))$\hfill Premise\\
+	\item $ P(a) \lor Q(a)$\hfill Universal Instantiation from (3)\\
+	\item $ Q(a)$\hfill Disjunctive syllogism from (2) and (4)\\
+	\item $\forall x (\lnot Q(x) \lor S(x))$\hfill Premise\\
+	\item $ Q(a) \lor S(a)$\hfill Universal Instantiation from (6)\\
+	\item $ S(a)$\hfill Disjunctive syllogism from (5) and (7)\\
+	\item $ \forall x (R(x) \implies \lnot S(x))$\hfill Premise \\
+	\item $ \lnot R(a) \implies S(a)$\hfill Universal Instantiation from (9)\\
+	\item $ \lnot R(a)$\hfill Moduns tollens from (7) and (9)\\
+\end{enumerate}
 \clearpage
 \subsubsection{Bài tập 16}
-\textbf{Đề bài:} 
+\textbf{Đề bài:} Use a direct proof to show that the sum of two odd integers is even. 
 \\\ \\\
 \textbf{Lời giải:} \\\ \\\
+if $a$,$b$ are two odd integer, then $a+b$ is even\\
+Assume that $a$ and $b$ are odd. By the definition, $a=2m+1$ and $b+2n+1$, ($m$,$n$ $\in Z$)\\
+$a+b=2m+2n+2=2(m+n+1)$ is an even number\\
 \clearpage
 \subsubsection{Bài tập 17}
-\textbf{Đề bài:} 
+\textbf{Đề bài:} Use a direct proof to show that the product of two odd numbers is odd.
 \\\ \\\
 \textbf{Lời giải:} \\\ \\\
+if $a$,$b$ are odd number, then the product of a,b is odd\\
+Assume that $a$ and $b$ are odd. By the definition, $a=2m+1$ and $b+2n+1$, ($m$,$n$ $\in Z$)\\
+$ab=(2m+1)(2n+1)=4mn+2m+2n+1=2(2mn+m+n)+1$ is an odd number\\
 \clearpage
-\subsubsection{Bài tập 18}
-\textbf{Đề bài:} 
+\subsubsection{Bài tập 18} 
+\textbf{Đề bài:} Use a direct proof to show that every odd integer is the difference of two squares.
 \\\ \\\
 \textbf{Lời giải:} \\\ \\\
+if $a$ is odd then $a$ is the result of the difference of the two squares
+Assume that $a$ is odd. By the definition $a=2n+1$ $n \in Z$	
+$a=2n+1=n^{2}+2n+1-n^{2}=(n+1)^{2}-n^{2}$\\
 \clearpage
 \subsubsection{Bài tập 19}
-\textbf{Đề bài:} 
+\textbf{Đề bài:} Proof that if n + m and n + p are even integers, where m; n; p are integers, then m + p is even. What
+kind of proof did you use?
 \\\ \\\
 \textbf{Lời giải:} \\\ \\\
+Using direct proof
+Assume that $n+m$,$n+p$ are even. By the definition $n+m=2a+1$,$n+p=2b+1$ $a,b \in Z$
+$n+m+n+p=2a+2b+2=2(a+b+1)$\\
+$\equiv m+p=2(a+b+1)-2n$\\
+$\equiv m+p=2(a+b+1-n)$\\		
 \clearpage
-\subsubsection{Bài tập 20}
+\subsubsection{Bài tập 20} Prove that the sum of two rational numbers is rational.
 \textbf{Đề bài:} 
 \\\ \\\
 \textbf{Lời giải:} \\\ \\\
+if $a$,$b$ are rational, then $a+b$ is ratioaal\\
+Assume $a$,$b$ is rational. By the definition, $a=\frac{m}{n}$,$b=\frac{p}{q}$\\
+$a+b=\frac{m}{n}+\frac{p}{q}=\frac{mq+np}{p+q}$\\
 \clearpage
 \subsubsection{Bài tập 21}
-\textbf{Đề bài:} 
+\textbf{Đề bài:} Use a proof by contradiction to prove that the sum of an irrational number and a rational number is irrational.
 \\\ \\\
 \textbf{Lời giải:} \\\ \\\
+if $a$ is an irrational number and $b$ is a rational number then $a+b$ is an irrational number
+Assume that $a$ is irrational number, $b$ is a rational number.\\
+Proposition $a+b$ is rational, $(a+b)-b=a$ is rational\\
+We assume that $a$ is irrational. In proposition, we proof that a is rational. That means proposition contradict with the assumption. So $a+b$ is irrational number\\ 
 \clearpage
 \subsubsection{Bài tập 22}
 \textbf{Đề bài: }Prove that if $x$ is irrational, then $1/x$ is irrational. \\\ \\\
@@ -711,9 +1138,13 @@ Vậy ta có điều phải chứng minh.
 \textbf{Lời giải:} \\\ \\\
 \clearpage
 \subsubsection{Bài tập 3}
-\textbf{Đề bài:} 
+\textbf{Đề bài:} Let P(x; y), Q(x; y), and R(x) be propositional functions. Use logical equivalences to show that $\lnot \forall x ((\exists y (P(x,y) \implies Q(x,y))) \lor R(x))$ and $\equiv \exists x (\lnot R(x) \land \forall y (\lnot Q(x,y) \land P(x,y)))$ are equipvalent.
 \\\ \\\
 \textbf{Lời giải:} \\\ \\\
+$\lnot \forall x ((\exists y (P(x,y) \implies Q(x,y))) \lor R(x))$\\
+$\equiv \lnot \forall x ((\exists y (\lnot P(x,y) \lor Q(x,y))) \lor R(x))$\\
+$\equiv \exists x ((\forall y (P(x,y) \land \lnot Q(x,y))) \land \lnot R(x)$\\
+$\equiv \exists x (\lnot R(x) \land \forall y (\lnot Q(x,y) \land P(x,y)))$\\
 \clearpage
 \subsubsection{Bài tập 4}
 \textbf{Đề bài:} Use rules of inference to show that if $p \land q$, $r \lor s$, and $p \rightarrow \lnot r$, then $s$ is true. \\\ \\\
@@ -737,7 +1168,65 @@ Q.E.D
 \clearpage
 
 \subsection{Bonus}
-
+\textbf{Bài tập 1,4.44:} Determine whether $\forall x (P(x) \Leftrightarrow Q(x))$ and $\forall x P(x) \Leftrightarrow \forall x Q(x)$ are logically equipvalent. Justify your answer.
+Assume that $\forall x P(x) \Leftrightarrow \forall x Q(x)$ is true. So for all x, Q(x) is true and P(x) is true. Therefore,  $\forall x (P(x) \Leftrightarrow Q(x))$.\\
+Assume that  $\forall x (P(x) \Leftrightarrow Q(x))$ is true. So for all x P(x), Q(x) have the same value. Therefore $\forall x P(x) \Leftrightarrow \forall x Q(x)$ is true.\\
+Therefore, $\forall x (P(x) \Leftrightarrow Q(x)) \equiv \forall x P(x) \Leftrightarrow \forall x Q(x)$
+\textbf{Bài tập 1.4.48:} Establish these logical equivalences, where x does not occur as a free variable in A. Assume that the domain is nonempty.
+\begin{enumerate}
+	\item[a)] $\forall x (A \implies P(x) \equiv A \implies \forall x P(x)$
+	If A is false, both sides are  always true, If A is true, the value of both sides depend on P(x). Therefore, the two sides are logically equivalent.
+	\item[b)] $\exists x (A \implies P(x)) \equiv A \implies \exists x P(x)$
+	If A is false, both sides are  always true, If A is true, the value of both sides depend on P(x). Therefore, the two sides are logically equivalent.
+\end{enumerate}
+\textbf{Bài tập 1.4.62:} Let P (x), Q(x), R(x), and S(x) be the statements “x is a duck,” “x is one of my poultry,” “x is an officer,” and “x is willing to waltz,” respectively. Express each of these statements using quantifiers; logical connectives; and P (x), Q(x), R(x), and S(x).
+	\begin{enumerate}
+	\item[a)] No duck are willing to waltz.
+	$\forall x (P(x) \implies \lnot S(x)$
+	\item[b)] No officers ever discline to waltz.
+	$\forall x (R(x) \implies S(x))$
+	\item[c)] All my poultry are ducks.
+	$\forall x (Q(x) \implies P(x))$
+	\item[d)] My poulrtry are not officers
+	$\forall x (Q(x) \implies \lnot R(x))$
+	\item[e)] d is follow a,b and c.
+	\subitem1) $\forall x (P(x) \implies \lnot S(x)$ \hfill Premise
+	\subitem2)	 $\forall x (R(x) \implies S(x))$ \hfill Premise
+	\subitem3) $\forall x (Q(x) \implies P(x))$ \hfill Premise
+	\subitem4) $ P(a) \implies \lnot S(a)$ \hfill Universal Instantiation from (1)
+	\subitem5) $ R(a) \implies S(a)$ \hfill Universal Instantiation from (2)
+	\subitem6)$ Q(a) \implies P(a)$ \hfill Universal Instantiation from (3)
+	\subitem7) $ Q(a) \implies \lnot S(a)$ \hfill Hypothegical Syllogism from (4) and (6)
+	\subitem8) $ \lnot R(a) \lor  S(a)$ \hfill Logical Equivalence from (5)
+	\subitem9) $ \lnot S(a) \implies \lnot R(a)$ \hfill Logical Equivalence from (8)
+	\subitem10) $ Q(a) \implies \lnot R(a)$ \hfill Hypothegical Syllogism from (7) and (9)
+	\subitem11) $\forall x Q(x) \implies \lnot R(x)$ \hfill Universal generlization from (10)
+\textbf{Bài tập 1.5.1:} Translate these statements into English, where the domain for each variable consists of all real numbers.
+\begin{enumerate}
+	\item[a)] $\forall x \exists y (x<y)$
+	For all x, exisrs y that x is greater than y.\\
+	\item[b)] $\forall x \forall y (((x \geq 0) \land (y \geq 0)) \implies (xy \geq 0))$
+	For all x, For all y that if x  is greater than or equal to 0 and y is greater than or equal to 0, xy is greater than or equal to 0.\\
+	\item[c)] $\forall x \forall y \exists z (xy=z)$
+	For all x, For all y, Exists z that xy equal to z.\\
+\end{enumerate}
+\textbf{Bài tập 1.5.10} Let F (x, y) be the statement “x can fool y,” where the domain consists of all people in the world. Use quantifiers to express each of these statements.
+\begin{enumerate}
+	\item[a)] Everybody can fool Fred.
+	$\forall x F(x,Fred)$
+	\item[b)] Evelyn can fool everybody
+	$\forall x F(Evelyn,x)$
+	\item[c)] Everybody can fool sombody.
+	$\forall x \exists y F(x,y)$
+	\item[d)] There is no one who can fool everybody.
+	$\forall x, \exists y \lnot F(x,y)$
+	\item[e)] Everyone can be fooled by somebody.
+	$\exists y \forall x F(y,x)$
+	\item[f)] No one can fool both Fred and Jerry.
+	$\forall x (F(x,Fred) \oplus F(x,Jerry))$
+	\item[g)] Nancy can fool exactly two people.
+	$\exists x,y (x \ne y) \implies (F(Nancy,x) \land F(Nancy,y))$
+\end{enumerate}
 \textbf{Bài tập 1.5.18: }Express each of these system specifications using predicates, quantifiers, and logical connectives, if necessary.
 \begin{enumerate}[a)]
 \item At least one console must be accessible during every
@@ -838,9 +1327,17 @@ Domain: Tập số thực.
 \textbf{Lời giải:} \\\ \\\
 \clearpage
 \subsubsection{Bài tập 3}
-\textbf{Đề bài:} 
+\textbf{Đề bài:} Prove that $\sqrt{35}$ is irrational
 \\\ \\\
 \textbf{Lời giải:} \\\ \\\
+Assume that $\sqrt{35}$ is rational. if so, $\exists a,b (a,b \in Z) \sqrt{35}=\frac{a}{b}$. a,b is the smallest such as possible integer.\\
+$\frac{a^{2}}{b^{2}}=35 \equiv a^{2}=35b^{2}$\\
+The right hand has factors of 5 and 7, so $a^{2}$ must be divisible by 5 and 7. By the unique prime factorization theorem , a must be divisible by 5 and 7 too. So $a=35k (k \in N)$ then $a^{2}=(35k)^{2}$\\
+$\equiv (35k)^{2}=35(b)^{2}$\\
+$\equiv 35(k)^{2}=(b)^{2}$\\
+$\equiv (\frac{b}{k})^{2}=35$\\
+$\equiv \frac{b}{k}=\sqrt{35}$\\
+Because $\sqrt{35}$>1, b>k, so it is contradicting our assumption. Therefore, $\sqrt{35}$ is irrational. 
 \clearpage
 \subsubsection{Bài tập 4}
 \textbf{Đề bài:} In the country of Togliristan (where Knights, Knaves, and Togglers live), Togglers will alternate between telling the truth and lying (no matter what other people say). You meet two people, A and B. They say, in order: \\\
@@ -870,6 +1367,108 @@ Vậy (A,B) chỉ có thể là (Knave, Toggler) và (Toggler, Toggler).
 \textbf{Lời giải:} \\\ \\\
 \clearpage
 \subsection{Bonus}
+\textbf{Bài tập 1.8.1:} Prove that $n{2}+1 \geq 2{n}$ when n is a positive integer with $1\geq n \geq 4$\\
+With  $1\geq n \geq 4$, we have n=1, n=2, n=3, n=4\\
+For n=1, we have $n^{2}+1=1^{2}+1=2$ and $2^{n}=2^{1}=2$\\
+For n=2, we have $n^{2}+1=2^{2}+1=5$ and $2^{n}=2^{2}=4$\\
+For n=3, we have $n^{2}+1=3^{2}+1=10$ and $2^{n}=2^{3}=8$\\
+For n=4, we have $n^{2}+1=4^{2}+1=17$ and $2^{n}=2^{4}=16$\\
+In each of these four cases we see that $n^{2}+1 \geq 2^{n}$ with $1\geq n \geq 4$\\
+
+\textbf{Bài tập 1.8.2:}  Prove that there are no positive perfect cubes less than 1000 that are the sum of the cubes of two positive integers.
+Assume that $0\lneq a^{3} \le 1000$ is greater than or equal to the sum of the cubes of b and c with a, b, c $\in$ Z and $a\gneq b \geq c$. Therefore the value of a is from 3 to 9.\\
+For a=9, we have $a^{3}=9^{3}=729$. So that the highest value of b and c are 8 and 6. Then $b^{3} + c^{3}=8^{3} + 6^{3}=728$.\\
+For a=8, we have $ a^{3}=8^{3}=512$. So that the highest value of b and c are 7 and 5. Then $b^{3} + c^{3}=7^{3} + 5^{3}=468$.\\
+For a=7, we have $a^{3}=7^{3}=343$. So that the highest value of b and c are 6 and 5. Then $b^{3} + c^{3}=6^{3} + 5^{3}=341$.\\
+For a=6, we have $a^{3}=6^{3}=216$. So that the highest value of b and c are 5 and 4. Then $b^{3} + c^{3}=5^{3} + 4^{3}=189$.\\
+For a=5, we have $a^{3}=5^{3}=125$. So that the highest value of b and c are 4 and 3. Then $b^{3} + c^{3}=4^{3} + 3^{3}=91$.\\
+For a=4, we have $a^{3}=4^{3}=64$. So that the highest value of b and c are 3 and 3. Then $b^{3} + c^{3}=3^{3} + 3^{3}=54$.\\
+For a=3, we have $a^{3}=3^{3}=27$. So that the highest value of b and c are 2 and 2. Then $b^{3} + c^{3}=2^{3} + 2^{3}=16$.\\
+In each of these cases, we see that for all positive perfect cubes less than 1000 that are not the sum of the cubes of two positive integers.\\
+
+\textbf{Bài tập 1.8.3:}  Prove that if x and y are real numbers, then max(x, y) + min(x, y) = x + y. [Hint: Use a proof by cases, with the two cases corresponding to x ≥ y and x < y, respectively.]\\
+Assume that $x \ge y$. So that max(x, y) = x, min(x, y) = y. Therefore, max(x, y) + min(x, y) = x + y.\\
+Assume that x < y. So that max(x, y) = y, min(x, y) = x. Therefore, max(x, y) + min(x, y) = y + x = x + y.\\
+
+\textbf{Bài tập 1.8.4:} Use a proof by cases to show that min(a, min(b, c)) =
+min(min(a, b), c) whenever a, b, and c are real numbers.\\
+Assume that a > b > c. So that min(min(a, b), c) = min(b, c) = c and min(a, min(b, c)) = min(a, c) = c. Therefore, min(min(a, b), c) = min(a, min(b, c)).\\
+Assume that a > c > b. So that min(min(a, b), c) = min(b, c) = b and min(a, min(b, c)) = min(a, b) = b. Therefore, min(min(a, b), c) = min(a,min(b, c)).\\
+Assume that b > a > c. So that min(min(a, b), c) = min(a, c) = c and min(a, min(b,  c)) = min(a, c) = c. Therefore, min(min(a, b), c) = min(a,min(b, c)).\\
+Assume that b > c > a. So that min(min(a, b), c) = min(a, c) = a and min(a, min(b, c)) = min(a, c) = a. Therefore, min(min(a, b), c) = min(a,min(b, c)).\\
+Assume that c > a > b. So that min(min(a, b), c) = min(b, c) = b and min(a, min(b, c)) = min(a, b) = b. Therefore, min(min(a, b), c)= min(a, min(b, c)).\\
+Assume that c > b > a. So that min(min(a, b), c) = min(a, c) = a and min(a, min(b, c)) = min(a, b) = a. Therefore, min(min(a, b), c)= min(a, min(b, c)).\\
+
+\textbf{Bài tập 1.8.5:} Prove using the notion of without loss of generality
+that min(x, y) = (x + y − |x − y|)/2 and max(x, y) = (x + y + |x − y|)/2 whenever x and y are real numbers.\\
+Because |x − y| = |y − x|, the values of x and y are interchangeable. Therefore, without loss of generality, we can assume that x ≥ y. Then (x + y − (x − y))/2 = (x + y − x + y)/2 = 2y/2 = y = min(x, y). Similarly, (x + y + (x − y))/2 = (x + y + x − y)/2 = 2x/2 = x = max(x, y).\\
+
+\textbf{Bài tập 1.8.6:} Prove using the notion of without loss of generality that 5x + 5y is an odd integer when x and y are integers of opposite parity
+The values of x and y are interchangeable. Therefore, without loss of generality, we can assume that x is even and y is odd. By the definition x = 2k + 1, y = 2n with n, k $\in Z^{+}$. Therefore, we have 5x +5y = 5(x + y) = 5(2k + 1 + 2n) = 10(m+n) + 4 + 1.\\
+Because 10(m+n) + 4 + 1 is odd, we can conclude that 5x + 5y is an odd integer.\\
+
+\textbf{ Bài tập 1.8.7:} 
+Prove the triangle inequality, which states that if x and y are real numbers, then |x| + |y| $\ge$ |x + y| (where |x| represents the absolute value of x, which equals x if x $ge$ 0 and equals -x if x < 0).\\
+We have three cases:\\
+Cases(1), we assume that $x \ge 0, y \ge 0$. So that |x + y| = x + y, |x| + |y| = x + y. Therefore, $|x + y| \le |x| + |y|$\\
+Cases(2), we assume that $x \ge 0, y < 0$. So that |x + y| = x + y, |x| + |y| = x - y. Therefore, $|x + y| \le |x| + |y|$.\\
+Cases(3), we assume that x < 0, y < 0. So that |x + y| = -(x + y), |x| + |y| = -x - y = -(x + y). Therefore, $|x + y| \le |x| + |y|$.\\
+The values of x and y are interchangeable. Therefore, without loss of generality, we do not need to check the case x < 0, $y \ge 0$. 
+
+\textbf{Bài tập 1.8.8:} Prove that there is a positive integer that equals the sum of the positive integers not exceeding it. Is your proof constructive or nonconstructive?\\
+We use a constructive existence proof.\\
+We assume that all positive integer not exceeding x with x is a positive integer are in set A. We need to find a number satisfying the sum of  set A is equal to x. We find that x = 1 is that number. We have A={1} then the sum of set A = 1. Therefore we are done.
+
+\textbf{Bài tập 1.8.9:} Prove that there are 100 consecutive positive integers that are not perfect squares. Is your proof constructive or nonconstructive?\\
+We use a constructive existence proof.\\
+We find that $50^{2} = 2500$ and $51^{2} = 2601$ so from 2501 to 2600, there is 100 consecutive positive integers that are not squares.\\
+
+\textbf{Bài tập 1.8.10:} Prove that either $2 \times 10^{500} + 15$ or $2 \times 10^{500} + 16$ is not a perfect square. Is your proof constructive or nonconstructive?\\
+We use a constructive existence proof.\\ 
+We have that the difference of $n^{2}$ and $(n+1)^{2}$ is an odd integer that is 2n + 1. So that the distances increases when n increases. In the other hand, the only consecutive perfect squares integers are 0 and 1. Because  $(2 \times 10^{500} + 15) - (2 \times 10^{500} + 16) = 1$, they can not both be the perfect squares.\\
+
+\textbf{Bài tập 1.8.11:}  Prove that there exists a pair of consecutive integers such that one of these integers is a perfect square and the other is a perfect cube.\\
+We find that a pair of consecutive integers that is 8 and 9. Because $8 = 2^{3}$ and $9 = 3^{2}$.\\
+
+\textbf{Bài tập 1.8.13:} Prove or disprove that there is a rational number x and an irrational number y such that xy is irrational.\\
+Let x = 2, so x is rational and y = $\sqrt{2}$, so y is irrational. We have $x^{y} = 2^{\sqrt{2}}$.\\
+Assume that $2^{\sqrt{2}}$ is irraltional, then we assume that x' = $2^{\sqrt{2}}$ and y' = $\frac{\sqrt{2}}{4}$. Then we have $x'^{y'} = (2^{\sqrt{2}})^{\frac{\sqrt{2}}{4}} = 2^{\frac{\sqrt{2} \times \sqrt{2}}{4}} = \sqrt{2}$ is irrational.We are done.\\
+Assume that $2^{\sqrt{2}}$ is irrational. We are done.\\
+
+\textbf{Bài tập 1.8.14:}  Prove or disprove that if a and b are rational numbers,
+then $a^{b}$ is also rational.\\
+Let a = 2. so a is rational and b = $\frac{1}{2}$, so b is rational. Then we have $a^{b} = 2^{\frac{1}{2}} = \sqrt{2}$ which is a irrational number. So we are done.\\
+
+\textbf{Bài tập 1.8.17:} Suppose that a and b are odd integers with a = b. Show there is a unique integer c such that |a - c| = |b - c|.\\
+The equation |a - c| = |b - c| is equivalent to the disjunction of two equations: a - c = b - c or a - c = -b + c. The first of these is equivalent to a = b, which contradicts the assumptions made in this problem, so the original equation is equivalent to a − c = −b + c. By adding b + c to both sides and dividing by 2, we see that this equation is equivalent to c = (a + b)/2. Thus, there is a unique solution.\\
+
+\textbf{Bài tập 1.8.18:} Show that if r is an irrational number, there is a unique integer n such that the distance between r and n is less than 1/2.\\
+As r is irrational number, we have r lies between two integers. So there exists an integer n such that n < r < n + 1.\\
+Because r is irrational $r \ne n + \frac{1}{2}$, we have two cases:\\
+Cases(1), r < $n + \frac{1}{2}$. So that 0< r - n < $\frac{1}{2}$, so the distance between n and r is less than $\frac{1}{2}$\\
+Cases(2), r > $n + \frac{1}{2}$. So that, (n + 1) - r < $\frac{1}{2}$, so the distance between n + 1 and r is less than $\frac{1}{2}$\\
+
+\textbf{Bài tập 1.8.19:} Show that if n is an odd integer, then there is a unique integer k such that n is the sum of k - 2 and k + 3.\\
+Because n is an odd integer, n = 2m + 1 with m $\in$ Z. The sum of  k - 2 and k + 3 is 2k + 1. We have n is an odd integer equal to the sum of k - 2 and k + 3 if only k = m. We can see that there is a unique solution.\\
+
+\textbf{Bài tập 1.8.20:} Prove that given a real number x there exist unique numbers n and $\epsilon$ such that x = n + $\epsilon$ , n is an integer, and 0 $\le$ $\epsilon$ < 1.\\
+As x is a real number, there exists an unique integer n such that n $\le$ x < n + 1. Subtracting both sides from n, we have 0 $\le$ x - n < 1.\\
+Assume $\epsilon$ = x - n. So that, 0 $\le \epsilon$ < 1 and x = n + $\epsilon$. We are done.\\
+
+\textbf{Bài tập 1.8.21:} Prove that given a real number x there exist unique numbers n and  such that x = n - $\epsilon$, n is an integer, and 0 $\le$ $\epsilon$ < 1.\\
+As x is a real number, there exists an unique integer n such that n is the smallest integer satisfying $x \le n$. So that differ of n and x is smaller than 1. Therefore, we have an inequation $0 \le n-x < 1$. Assume that $\epsilon$ is equal to n - x. So that $0 \le \epsilon < 1$ and x = n - $\epsilon$. We are done.\\
+
+\textbf{Bài tập 1.8.22:} Use forward reasoning to show that if x is a nonzero real number, then $x^{2} + 1/x^{2} \ge 2$. [Hint: Start with the inequality $(x - 1/x)^{2} \ge 0$ which holds for all nonzero real numbers x.]\\
+As x is a nonzero real number, there exists an real number 1/x. Then $(x - 1/x)^{2} \ge 0$. Because  $(x - 1/x)^{2} = x^{2} + \frac{1}{x^{2}} - 2x^{2} \times \frac{1}{x^{2}} =  x^{2} + \frac{1}{x^{2}} - 2$. This implies that $x^{2} + \frac{1}{x^{2}} -2 \ge 0$. Adding 2 to both sides, we obtain $x^{2} + \frac{1}{x^{2}} \ge 2$. We conclude that if x is a nonzero real number, then $x^{2} + \frac{1}{x^{2}} \ge 2$.\\
+
+\textbf{Bài tập 1.8.24:} The quadratic mean of two real numbers x and y equals $\sqrt{(x^{2} + y^{2})/2}$. By computing the arithmetic and quadratic means of different pairs of positive real numbers, formulate a conjecture about their relative sizes and prove your conjecture.\\
+The arithmetic mean of distinct positive real number x and y is always less than their quadratic mean. To prove $(x + y)/2 < \sqrt{(x^{2} + y^{2})/2}$, we square both sides of inequality and then we construct a sequence of equivalent inequalities to obtain $(x-y)^{2}/4 > 0$. The equipvalent inequalities are:\\
+$\frac{(x + y)}{2} < \sqrt{\frac{(x^{2} + y^{2})}{2}}$\\
+$\equiv \frac{(x + y)^{2}}{4} < \frac{x^{2} + y^{2}}{2}$\\
+$\equiv \frac{x^{2} + 2xy + y^{2}}{4} < \frac{x^{2} + y^{2}}{2}$\\
+$\equiv \frac{x^{2} + y^{2} - 2xy}{4} > 0$\\
+$\equiv \frac{(x - y)^{2}}{4} > 0$\\
+Because $(x - y)^{2} > 0$ when $x \ne y$, it follow that the final inequality is true. Because all of these inequalities are equivalent. It follows that $(x + y)/2 < \sqrt{(x^{2} + y^{2})/2}$ when $x \ne y$.\\
 \clearpage
 
 \section{Homework03a\_Sets\_Function.pdf}
@@ -894,15 +1493,25 @@ Vậy (A,B) chỉ có thể là (Knave, Toggler) và (Toggler, Toggler).
 \\\ \\\
 \textbf{Lời giải:} \\\ \\\
 \clearpage
-\subsubsection{Bài tập 5}
-\textbf{Đề bài:} 
+\subsubsection{Bài tập 5} 
+\textbf{Đề bài:} Let A and B be sets. Prove that P(A) $\cap$ P(B) = P(A $\cap$ B).
 \\\ \\\
 \textbf{Lời giải:} \\\ \\\
+Let X $\in$ P(A $\cap$ B) then each elements of X is an element of A and B. So that, X also in P(A) and P(B). Therefore, X $\in$ P(A) $\cap$ P(B).\\
+Let Y $\in$ P(A) and Y $\in$ P(B). So that, each elements of Y in an element of A and B. Hence, each elements of  is in A $\cap$ B. Therefore, Y $\in$ P(A $\cap$ B).
 \clearpage
-\subsubsection{Bài tập 6}
-\textbf{Đề bài:} 
+\subsubsection{Bài tập 6} 
+\textbf{Đề bài:} Let A, B, and C be subsets of a universe U. Use definitions of set operations and set identities to prove the following equality of sets:\\
+$((B \cap A) \cup (B \cap C)) \ (A \cap B \cap C) = (B \cap (A \triangle C))$
 \\\ \\\
 \textbf{Lời giải:} \\\ \\\
+$((B \cap A) \cup (B \cap C)) \ (A \cap B \cap C)$\\
+$\equiv (B \cap A) \ C \cup (B \cap C) \ (B \cap A)$\\
+$\equiv (B \cap A) \ C \cup (B \cap C) \ A$\\
+\\
+$B \cap (A \triangle C)$\\
+$\equiv B \cap [(A \ C) \cup (C \ A)]$\\
+$\equiv (B \cap A) \ C \cup (B \cap C) \ A$\\
 \clearpage
 \subsubsection{Bài tập 7}
 \textbf{Đề bài:} Let $A = \{a, b, c\}$, $B = \{1, 2, 3, 4\}$, and $C = \{\pi, \phi, i\}$. Define functions $f : A \rightarrow B$ and $g : B \rightarrow C$ as \\\
@@ -927,9 +1536,90 @@ Ta thấy mọi ảnh của $g \circ f$ đều phân biệt và mọi ảnh đ�
 \textbf{Lời giải:} \\\ \\\
 \clearpage
 \subsection{Bonus}
+\textbf{Bài tập 2.2.18:} Let A and B be sets. Show that:
+\begin{enumerate}
+	\item[a)] $(A \cup B) \subseteq (A \cup B \cup C)$\\
+	Let x be arbitrary\\
+	 $x \in (A \cup B) \rightarrow x \in (A \cup B) \lor (x \in C) \rightarrow	x \in (A \cup B \cup C)$\\
+	Thus since x $\in$ (A $\cup$ B) $\rightarrow$ $x \in (A \cup B \cup C)$. It follows that $(A \cup B) \subseteq (A \cup B \cup C)$, by definition of subset.
+	\item[b)] $ (A \cap B \cap C) \subseteq (A \cap B)$\\
+	Let x be arbitrary\\
+	$x \in (A \cap B \cap C) \rightarrow (x \in (A \cap B)) \land (x \in C) \rightarrow x \in (A \cap B)$
+	Thus since $x \in (A \cap B \cap C) \rightarrow x \in (A \cap B)$. It follows that $(A \cap B \cap C) \subseteq (A \cap B)$, by definition of subset.
+	\item[c)] $(A - B) - C \subseteq A - C$
+	Let x be arbitrary
+	$x \in (A - B) - C \rightarrow x \in (A - B) \land (x \notin C)\\
+	\rightarrow (x \in A) \land (x \notin B) \land (x \notin C)\\
+	\rightarrow (x \in A) \land (x \notin C)
+	\rightarrow x \in (A - C)$
+	Thus since $x \in (A - B) - C \rightarrow x \in (A - C)$. It follows that $(A - B) - C \subseteq A - C$, by definition of subset.
+	\item[d)] $(A - C) \cap (C - B) = \varnothing$\\
+	Let x be arbitrary\\
+	$x \in (A - C) \cap (C - B) \rightarrow (x \in (A - C)) \land (x \in (C - B))\\
+	\rightarrow (x \in A) \land (x \notin C) \land (x \in C) \land (x \notin B)\\
+	\rightarrow (x \in A) (x \in \varnothing) (x \notin B)
+	\rightarrow x \in \varnothing$
+	Thus since $x \in (A - C) \cap (C - B) \rightarrow x \in \varnothing$. It follows that $(A - C) \cap (C - B) = \varnothing$\\
+\end{enumerate} 
+\textbf{Bài tập 2.2.19:} Show that if A and B are sets, then\\
+\begin{enumerate}
+	\item[a)] $A - B = A \cap \overline{B}$
+	$A - B ={x | (x \in A) \land (x \notin B)}\\
+	 A - B ={x | (x \in A) \land x \in \overline{B}}\\
+	 A \cap \overline{B}={x | x \in A \land x \in \overline{B}}\\
+	\rightarrow A - B = A \cap \overline{B}$ 
+	\item[b)] $(A \cap B) \cup (A \cap \overline{B}) = A$
+		$(A \cap B) \cup (A \cap \overline{B} = A \cap (B \cup \overline{B}) = A \cap U = A\\
+		\rightarrow (A \cap B) \cup (A \cap \overline{B}) = A$
+\end{enumerate}
+\textbf{Bài tập 2.2.20:} Show that if A and B are sets with A $\subseteq$ B, then
+\begin{enumerate}
+	\item[a)] $A \cup B = B$\\
+	Let x be arbitrary\\
+	Because A $\subseteq$ B, $x \in A \rightarrow x \in B$
+	$A \cup B = {x | (x \in A) \lor (x \in B)} = {x | x \in B \lor x \in B} = {x | x \in B} = B$\\
+	\item[b)] $A \cap B = A$\\
+	Let x be arbitrary\\
+	$A \cap B = {x | (x \in A) \land (x \in B)} = {x | x \in A} = A$\\
+\end{enumerate}
+\textbf{Bài tập 2.2.32:} Find the symmetric difference of {1, 3, 5} and {1, 2, 3}.\\
+{1.3.5} $\oplus$ {1,2,3} = {5,2}\\
+\textbf{Bài tập 2.2.33:} Find the symmetric difference of the set of computer science majors at a school and the set of mathematics majors at this school.\\
+The set of students who are computer science major but not mathematics major or who are mathematics major but not computer science major.\\
+\textbf{Bài tập 2.2.35} Show that $A \oplus B = (A \cup B) - (A \cap B)$\\
+$(A \cup B) - (A \cap B)$: An element is in $(A \cup B) - (A \cap B)$ if it is in union of A and B but not in intersection of A and B which means that it is in either A or B but not both A and B. This is exacly the same as A $\oplus$ B.\\
+\textbf{Bài tập 2.2.36:} Show that $A \oplus B = (A - B) \cup (B - A)$\\
+An element is in $(A - B) \cup (B - A)$ if it is in a but not in B or it in B but not in A. Which means that it is in either A or B but not both A and B. This is exactly the same as A $\oplus$ B.\\
+\textbf{Bài tập 2.2.37:} Show that if A is a subset of a universal set U, then
+\begin{enumerate}
+	\item[a)] $A \oplus A = \varnothing$
+	$A \oplus A = (A \cup A) - (A \cap A) = A - A = \varnothing$\\
+	\item[b)] $A \oplus \varnothing = A$
+	$A \oplus \varnothing = (A \cup \varnothing) - (A \cap \varnothing) = A - \varnothing = A$\\
+	\item[c)] $A \oplus U = \overline{A}$
+	$A \oplus U = (A \cup U) - (A \cap U) = U - A = \overline{A}$
+	\item[d)] $A \oplus \overline{A} = U$
+	$A \oplus \overline{A} = (A - \overline{A}) \cup (\overline{A} - A) = A \cup \overline{A} = U$\\
+\end{enumerate}
+\textbf{Bài tập 2.2.38:} Show that if A and B are sets, then:
+\begin{enumerate}
+	\item[a)] $A \oplus B = B \oplus A$\\
+	$A \oplus B = (A \cup B) - (A \cap B)$\\
+	$B \oplus A = (B \cup A) - (B \cap A) = (A \cup B) - (A \cap B)$\\
+	\item[b)] $(A \oplus B) \oplus B = A$\\
+	$(A \oplus B) \oplus B = ((A \oplus B) \cup B) - ((A \oplus B) \cap B)\\
+	= ((A-B) \cup (B-A) \cup B) - (B \cap ((A \cup B)-(B \cap A))\\ 
+	= ((A \cup B) \cup (B - A)) - (((A - B) \cap B) \cup ((B - A) \cap B))\\
+	= (A \cup B) - (\varnothing \cup (B - A))\\ 
+	= (A \cup B) - (B - A)\\
+	= A$
+\end{enumerate}
+\textbf{Bài tập 2.2.39:}  What can you say about the sets A and B if $A \oplus B = A$\\
+$\rightarrow set B = \varnothing$
 \clearpage
 
-\section{Homework03b\_Sequences.pdf}
+\section{Homework03b\_Sequences.pdf} 
+
 \subsection{Bài tập bắt buộc}
 \subsubsection{Bài tập 1}
 \textbf{Đề bài:} 
@@ -942,9 +1632,21 @@ Ta thấy mọi ảnh của $g \circ f$ đều phân biệt và mọi ảnh đ�
 \textbf{Lời giải:} \\\ \\\
 \clearpage
 \subsubsection{Bài tập 3}
-\textbf{Đề bài:} 
+\textbf{Đề bài:} Mathematical induction can be used to prove things that can be proven directly. In the two problems below, you will essentially prove the induction step of an induction proof.
+a. For n ≥ 0, let P(n) denote the sentence " The 2×n chessboard can be tiled using dominoes." Prove P(n) $\rightarrow$ P(n + 1).
+b. For n ≥ 0, let Q(n) denote the sentence " The 3 × 2n chessboard can be tiled using dominoes." Prove Q(n) $\rightarrow$ Q(n + 1).
 \\\ \\\
 \textbf{Lời giải:} \\\ \\\
+\begin{enumerate}
+	\item[a)] P(0) is always true.\\
+	P(1) is true because the size of chessboard will be 2 $\times$ 1 is fit with a domino.
+	Assume that P(k) is true for all $k \ge 0$ that is 2 $\times$ k chessboard can be tiled using dominoes. We need to prove that it is also true with P(k + 1).\\
+	With P(k + 1), we will have 2 $\times$ (k + 1) chessboard. This can be demonstrated by (2 $\times$ k) + (2 $\times$ 1). Because we can tile 2 $\times$ k and 2 $\times$ 1 chessboard by using dominoes, we can also tile 2 $\times$ (k + 1) chessboard.\\
+	\item[b)] P(0) is always true.\\
+	P(1) is true because the size of chessboard will be 3 $\times$ 2 is fit with three dominoes.\\
+	Assume that P(k) is true for all $k \ge 0$ that is 3 $\times$ 2k chessboard can be tiled using dominoes. We need to prove that it is also true with P(k + 1).\\
+	With P(k + 1), we will have 3 $\times$ 2(k + 1) chessboard. This can be demonstrated by (3 $\times$ 2k) + (3 $\times$ 2). Because we can tile (3 $\times$ 2k) and (3 $\times$ 2) chessboard by using domninoes, we can also tile 3 $\times$ 2(k + 1) chessboard.\\   
+\end{enumerate}
 \clearpage
 \subsubsection{Bài tập 4}
 \textbf{Đề bài: }Define a sequence $\{f_n\}_{n=0}^\infty$ as $f_0 = 1$ and for $n \geq 1$, $f_{n+1} = \frac{1}{1+f_n}$. Prove that for $n \geq 0$, $f_n = \frac{F_{n+1}}{F_{n+2}}$, where $\{F_n\}_{n=0}^\infty$ is the Fibonacci sequence. \\\ \\\
